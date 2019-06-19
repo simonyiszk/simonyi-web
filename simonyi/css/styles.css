@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400i,500&subset=latin-ext");
+:root {
+  --button-color: #de9658;
+  --navbar-color: #343333;
+  --main-color: #6bbe52;
+  --main-font-size: 1.5rem;
+  --main-font-family: "Fira Sans", sans-serif;
+}
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: var(--main-font-family);
+  font-weight: 300;
+}
+
+.headertitle {
+  position: absolute;
+  top: 0.75rem;
+  left: 5rem;
+  font-size: 1.5em;
+  color: white;
+}
+
+.headertitle > a {
+  color: white;
+  text-decoration: none;
+}
+
+.headerwrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #343333;
+  z-index: 2;
+}
+
+.headerlistwrapper {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.headerlist {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 4rem;
+  margin: 0;
+}
+
+.headerlist > a > li {
+  display: inline-block;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s all;
+  padding: calc(27px / 2) 2.5rem;
+}
+
+.headerlist > a > li:hover:not(.activeHeaderLi) {
+  color: #6abd51;
+}
+
+#simonyisvg {
+  width: 30px;
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#simonyisvg > cls-1 {
+  fill: #63bc47;
+}
+
+.headertitlewrapper {
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 35px;
+  width: 25rem;
+}
+
+.activeHeaderLi {
+  background-color: #de9658;
+  color: white;
+}
+
+.headerlist > a {
+  color: white;
+  text-decoration: none;
+}
+
+/*--------------------*/
+/*----Header End------*/
+/*--------------------*/
+
+.mainpagehero {
+  width: 100%;
+  height: calc(100vh - 50px);
+  margin-top: 50px;
+  background-color: grey;
+}
+
+.mainpagetext {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.mainpagetext_title {
+  font-size: 2em;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-image: url("../media/title-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.mainpagetext_article {
+  text-align: justify;
+  margin: 0 4rem 2rem 4rem;
+  border-radius: 30px;
+  background-color: var(--main-color);
+  font-size: var(--main-font-size);
+  padding: 2rem;
+}
+.button {
+  background-color: var(--button-color);
+  border-radius: 1000px;
+  color: white;
+  margin: auto;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: var(--main-font-size);
+  font-family: var(--main-font-family);
+  font-weight: 300;
+}
+
+.wpic {
+  width: 60%;
+}
+
+.mainpagetext_section {
+  position: relative;
+  text-align: center;
+}
+
+.mainpagetext_image {
+  position: absolute;
+  top: 6.75rem;
+  right: 4rem;
+  width: 25%;
+  height: 75vh;
+  background-color: grey;
+}
+
+.leaderwrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.bosswrapper {
+  text-align: center;
+  width: 15%;
+}
+
+.bosspic {
+  width: 90%;
+  margin: 0 auto;
+  height: 250px;
+  background-color: gray;
+}
+
+.bossname {
+  margin-top: 1rem;
+}
+
+.mainfooter {
+  margin-bottom: 20rem;
+}
