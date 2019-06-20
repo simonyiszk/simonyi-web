@@ -1,82 +1,56 @@
-const init = async () => {
-  async function getObject(uri) {
-    const response = await fetch(uri, {
-      method: "GET",
-      mode: "cors"
-    });
+import events from "../data/events.yml";
+const honapcontainer = document.getElementById("honapcontainer");
+if (!honapcontainer) return;
 
-    if (!response.ok) throw new Error("Error while handling request.");
+let honapResult = "";
+events.forEach(month => {
+  honapResult += `<div class="honap">
+          <div class="honap-esemenyek">
+              ${month.events
+                .map(event => {
+                  return `<div class="esemeny">
+                      <div class="esemeny-datum">${event.date}</div>
+                      <div class="esemeny-cim">${event.name}</div>
+                  </div>`;
+                })
+                .join("")}
+          </div>
+          <div class="honap-nev">
+              ${month.name}
+          </div>
+      </div>`;
+});
+honapcontainer.innerHTML = honapResult;
 
-    return await response.text();
-  }
+import showdown from "showdown";
+const converter = new showdown.Converter();
+import posts from "../data/posts/*.md";
+console.log(posts);
 
-  function getFiles(data) {
-    console.log(data);
-    var linePattern = /<a href="[0-9]{8}\.md">[0-9]{8}\.md<\/a>/g;
-    var found = data.match(linePattern);
-    if (!found) return [];
+const numberPattern = /(\d{4})(\d{2})(\d{2})/g;
+const hirek = Object.keys(posts)
+  .reduce((prev, curr) => {
+    return [
+      ...prev,
+      {
+        date: new Date(curr.replace(numberPattern, "$1-$2-$3")),
+        data: posts[curr].data,
+        content: converter.makeHtml(posts[curr].content)
+      }
+    ];
+  }, [])
+  .sort((a, b) => b.date - a.date);
+console.log(hirek);
+const hircontainer = document.getElementById("hircontainer");
+if (!hircontainer) return;
 
-    var numberPattern = /(\d{4})(\d{2})(\d{2})/g;
-    return found
-      .map(file => file.split('"')[1])
-      .map(file => {
-        return {
-          name: file,
-          date: new Date(file.split(".")[0].replace(numberPattern, "$1-$2-$3"))
-        };
-      })
-      .sort((a, b) => b.date - a.date);
-  }
-
-  ///////////////
-  ///Események///
-  ///////////////
-  var myfile = await getObject("../data/events.yml");
-  var eventobj = jsyaml.load(myfile);
-
-  var honapcontainer = document.getElementById("honapok");
-  if (!honapcontainer) return;
-
-  var honapResult = "";
-  eventobj.forEach(month => {
-    honapResult += `<div class="honap">
-            <div class="honap-esemenyek">
-                ${month.events
-                  .map(event => {
-                    return `<div class="esemeny">
-                        <div class="esemeny-datum">${event.date}</div>
-                        <div class="esemeny-cim">${event.name}</div>
-                    </div>`;
-                  })
-                  .join("")}
-            </div>
-            <div class="honap-nev">
-                ${month.name}
-            </div>
-        </div>`;
-  });
-  honapcontainer.innerHTML = honapResult;
-
-  ///////////
-  ///Hírek///
-  ///////////
-  var filesRaw = await getObject("../data/posts");
-  var filesList = getFiles(filesRaw);
-  filesList = filesList.map(async (file) => getObject("../data/posts/"+file.name));
-  filesList = await Promise.all(filesList);
-
-  var hircontainer = document.getElementById("hirek");
-  if (!hircontainer) return;
-/*
-  var hirResult = "";
-  filesList.forEach(hir => {
-    hirResult += `<div class="hir">
-    <div class="hircim">${}</div>
+let hirResult = "";
+hirek.forEach(hir => {
+  hirResult += `<div class="hir">
+    <div class="hircim">${hir.data.title}</div>
     <div class="hirtorzs">
-
+      ${hir.content}
     </div>
   </div>`;
-  });*/
-};
-
-init();
+});
+hircontainer.innerHTML = hirResult;
