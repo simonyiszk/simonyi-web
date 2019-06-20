@@ -1,146 +1,147 @@
-.aboutHeroWrapper{
-    background-color: white;
-    width: 100%;
-    height: calc(100vh - 50px);
-    margin-top: 50px;
-    position: relative;
+.aboutHeroWrapper {
+  background-color: white;
+  width: 100%;
+  height: calc(100vh - 50px);
+  margin-top: 50px;
+  position: relative;
 }
 
-.aboutHeroText{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30%;
-    padding: 3rem 4rem;
-    line-height: 30px;
-    text-align: justify;
+.aboutHeroText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  padding: 3rem 4rem;
+  line-height: 30px;
+  text-align: justify;
 }
 
-.aboutHeroImage{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url(../img/20180630_121616_spot.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: calc(70% - 6rem);
-    height: calc(100vh - 50px);
+.aboutHeroImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../img/20180630_121616_spot.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: calc(70% - 6rem);
+  height: calc(100vh - 50px);
 }
 
-#aboutHeroSVG{
-    height: calc(100vh - 50px);
+#aboutHeroSVG {
+  height: calc(100vh - 50px);
 }
 
-.aboutValues{
-    width: 100%;
-    background-color: #DE9658;
-    color: white;
+.aboutValues {
+  width: 100%;
+  background-color: #de9658;
+  color: white;
 }
 
-.aboutValuesTitle{
-    text-align: center;
-    font-weight: bold;
-    font-size: 3rem;
-    padding: 1.5rem;
+.aboutValuesTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 1.5rem;
 }
 
-.aboutValuesWrapper{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
+.aboutValuesWrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.aboutValuebox{
-    width: 30%;
-    text-align: center;
-    margin-bottom: 2rem;
+.aboutValuebox {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.aboutValuebox > .aboutValuebox_image > i{
-    font-size: 2rem;
-    background-color: white;
-    color: #DE9658;
-    padding: 0.5rem;
-    border-radius: 100px;
-    margin-bottom: 1rem;
+.aboutValuebox > .aboutValuebox_image > i {
+  font-size: 2rem;
+  background-color: white;
+  color: #de9658;
+  padding: 0.5rem;
+  border-radius: 100px;
+  margin-bottom: 1rem;
 }
 
-.aboutValuebox_title{
-    font-size: 1.2rem;
-    color: #343333;
-    font-family: 'Orbitron', sans-serif;
+.aboutValuebox_title {
+  font-size: 1.2rem;
+  color: #343333;
+  font-family: "Orbitron", sans-serif;
 }
 
-.aboutSimonyiWrapper{
-    width: 100%;
-    height: 100vh;
-    position: relative;
+.aboutSimonyiWrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
-.aboutSimonyiImageLeft{
-    width: 30%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../img/simonyi.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: right;
+.aboutSimonyiImageLeft {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/simonyi.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
 }
 
-.aboutSimonyiText{
-    width: calc(40.1% - 4rem);
-    position: absolute;
-    top: 0;
-    left: 29.95%;
-    background-color: white;
-    height: calc(100vh - 8rem);
-    z-index: 1;
-    padding: 4rem 2rem;
-    text-align: justify;
-    line-height: 30px;
+.aboutSimonyiText {
+  width: calc(40.1% - 4rem);
+  position: absolute;
+  top: 0;
+  left: 29.95%;
+  background-color: white;
+  height: calc(100vh - 8rem);
+  z-index: 1;
+  padding: 4rem 2rem;
+  text-align: justify;
+  line-height: 30px;
 }
 
-.aboutSimonyiImageRight{
-    width: 30%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url(../img/vander.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.aboutSimonyiImageRight {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../img/vander.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#aboutSimonyiSVGright, #aboutSimonyiSVGleft{
-    height: 100vh;
+#aboutSimonyiSVGright,
+#aboutSimonyiSVGleft {
+  height: 100vh;
 }
 
-.aboutContactWrapper{
-    margin-top: 3px;
-    width: 100%;
-    background-color: #6BBE52;
-    color: #343333;
+.aboutContactWrapper {
+  margin-top: 3px;
+  width: 100%;
+  background-color: #6bbe52;
+  color: #343333;
 }
 
-.aboutContactWrapper  ul{
-    margin: 0;
-    list-style: none;
+.aboutContactWrapper ul {
+  margin: 0;
+  list-style: none;
 }
 
-.aboutContactWrapper ul li{
-    padding: 2rem 0;
-    width: 30%;
-    margin: 0 auto;
-    font-weight: bold;
+.aboutContactWrapper ul li {
+  padding: 2rem 0;
+  width: 30%;
+  margin: 0 auto;
+  font-weight: bold;
 }
 
-.aboutContactWrapper ul li i{
-    font-size: 1.5rem;
-    margin-right: 1rem;
+.aboutContactWrapper ul li i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
