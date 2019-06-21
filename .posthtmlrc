@@ -1,0 +1,16 @@
+{
+  "plugins": {
+    "posthtml-include": {
+      "root": "./"
+    },
+    "posthtml-expressions": {
+      locals: {
+        index: { page: 'index'},
+        about: { page: 'about'},
+        galery: { page: 'galery'},
+        services: { page: 'services'},
+        groups: { page: 'groups'}
+      }
+    }
+  }
+}

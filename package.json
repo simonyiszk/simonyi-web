@@ -5,7 +5,9 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
-    "parcel-plugin-md-fm": "^0.3.2"
+    "parcel-plugin-md-fm": "^0.3.2",
+    "posthtml-expressions": "^1.1.1",
+    "posthtml-include": "^1.2.0"
   },
   "dependencies": {
     "showdown": "^1.9.0"
