@@ -47,7 +47,15 @@ if (!hircontainer) return;
 let hirResult = "";
 hirek.forEach(hir => {
   hirResult += `<div class="hir">
-    <div class="hircim">${hir.data.title}</div>
+    <div class="hirfejlec">
+      <div class="hirdatum">${hir.date
+        .toISOString()
+        .slice(0, 10)
+        .replace(/-/g, ".")
+        .concat(".")}</div>
+      <div class="hircim">${hir.data.title}</div>
+      <div class="hirszerzo">${hir.data.author}</div>
+    </div>
     <div class="hirtorzs">
       ${hir.content}
     </div>

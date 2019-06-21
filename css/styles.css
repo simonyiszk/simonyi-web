@@ -5,6 +5,10 @@
   --main-color: #6bbe52;
   --main-font-size: 1.5rem;
   --main-font-family: "Fira Sans", sans-serif;
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 1024px;
+  --breakpoint-lg: 1440px;
+  --breakpoint-xl: 1920px;
 }
 html,
 body {
@@ -125,17 +129,40 @@ section {
   margin: 1rem 0;
 }
 
-.hircim {
-  text-align: center;
+.hirfejlec {
   background-color: #63bc47;
   padding: 0.5rem 0.5rem;
   border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  align-items: baseline;
+}
+.hircim {
   font-size: 1.5rem;
   font-weight: 400;
-  color: white;
+  flex: 1;
+  text-align: center;
+  margin: 0 1rem;
 }
 .hirtorzs {
   margin: 0.5rem 1rem;
+}
+
+@media (max-width: 600px) {
+  .hirfejlec {
+    flex-direction: column;
+  }
+  .hircim {
+    order: 1;
+    align-self: center;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .hirszerzo {
+    max-width: 8rem;
+  }
 }
 
 /* Timeline */
