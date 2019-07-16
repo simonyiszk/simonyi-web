@@ -46,3 +46,8 @@
 .serviceBoxTitle{
     font-size: 2rem;
 }
+
+.serviceBoxTitle > a {
+    color: inherit;
+    text-decoration: none;
+}
