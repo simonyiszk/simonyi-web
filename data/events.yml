@@ -1,32 +1,14 @@
-- name: Február
-  events:
-    - name: FnF
-      date: 02.18.
-    - name: FnF
-      date: 02.18.
-    - name: FnF
-      date: 02.18.
-- name: Március
-  events:
-    - name: FnF
-      date: 02.18.
-    - name: FnF
-      date: 02.18.
-    - name: FnF
-      date: 02.18.
 - name: Április
   events:
-    - name: FnF
-      date: 02.18.
-    - name: FnF
-      date: 02.18.
-    - name: FnF
-      date: 02.18.
+    - name: XVI. Simonyi Konferencia
+      date: 04.16
 - name: Május
   events:
-    - name: FnF
-      date: 02.18.
-    - name: FnF
-      date: 02.18.
-    - name: FnF
-      date: 02.18.
+    - name: Simonyi Öregavató
+      date: 05.08.
+- name: Június
+  events:
+- name: Július
+  events:
+    - name: Simonyi Nyári Tábor
+      date: 07.04.-07.06.
