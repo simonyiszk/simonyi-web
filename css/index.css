@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400i,500&subset=latin-ext");
+:root {
+  --button-color: #de9658;
+  --navbar-color: #343333;
+  --main-color: #6bbe52;
+  --main-font-size: 1.5rem;
+  --main-font-family: "Fira Sans", sans-serif;
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 1024px;
+  --breakpoint-lg: 1440px;
+  --breakpoint-xl: 1920px;
+}
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: var(--main-font-family);
+  font-weight: 300;
+}
+*,
+body {
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+#hero {
+  height: 100vh;
+}
+
+.hero-bg-cont {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.sectionheader {
+  text-align: center;
+}
+.hircontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hir {
+  width: 80%;
+  margin: 1rem 0;
+}
+
+.hirfejlec {
+  background-color: #63bc47;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  align-items: baseline;
+}
+.hircim {
+  font-size: 1.5rem;
+  font-weight: 400;
+  flex: 1;
+  text-align: center;
+  margin: 0 1rem;
+}
+.hirtorzs {
+  margin: 0.5rem 1rem;
+}
+
+@media (max-width: 600px) {
+  .hirfejlec {
+    flex-direction: column;
+  }
+  .hircim {
+    order: 1;
+    align-self: center;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .hirszerzo {
+    max-width: 8rem;
+  }
+}
+
+/* Timeline */
+
+#esemenyek {
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.honapcontainer {
+  width: 50%;
+  border-left: 0.5rem solid #63bc47;
+  border-radius: 0.5rem;
+}
+.honap {
+  display: flex;
+  width: 100%;
+  border-top: 3px dashed rgba(75, 75, 75, 0.5);
+}
+.honap-nev {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  color: rgba(75, 75, 75, 0.5);
+}
+.honap-esemenyek {
+  flex-basis: 70%;
+}
+.esemeny {
+  display: flex;
+  padding-left: 2rem;
+  margin: 0.5rem 0 2rem;
+  position: relative;
+  line-height: 1.5rem;
+}
+.esemeny::after {
+  position: absolute;
+  left: calc(-1 * ((1rem + 2 * 0.5rem) / 2 + 0.5rem / 2));
+  background: white;
+  border: 0.5rem solid #63bc47;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  content: "";
+  top: calc(-1 * ((1rem + 2 * 0.5rem) / 2 - 1.5rem / 2));
+}
+.esemeny > div {
+  font-size: 1.5rem;
+}
+.esemeny-datum {
+  flex-basis: 5rem;
+}
