@@ -121,27 +121,3 @@
 #aboutSimonyiSVGleft {
   height: 100vh;
 }
-
-.aboutContactWrapper {
-  margin-top: 3px;
-  width: 100%;
-  background-color: #6bbe52;
-  color: #343333;
-}
-
-.aboutContactWrapper ul {
-  margin: 0;
-  list-style: none;
-}
-
-.aboutContactWrapper ul li {
-  padding: 2rem 0;
-  width: 30%;
-  margin: 0 auto;
-  font-weight: bold;
-}
-
-.aboutContactWrapper ul li i {
-  font-size: 1.5rem;
-  margin-right: 1rem;
-}

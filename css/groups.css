@@ -87,21 +87,7 @@
 .leaderLink {
   font-size: 1.5rem;
 }
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400i,500&subset=latin-ext");
-:root {
-  --button-color: #de9658;
-  --navbar-color: #343333;
-  --main-color: #6bbe52;
-  --main-font-size: 1.5rem;
-  --main-font-family: "Fira Sans", sans-serif;
-}
-html,
-body {
-  padding: 0;
-  margin: 0 auto;
-  font-family: var(--main-font-family);
-  font-weight: 300;
-}
+
 
 .mainpagehero {
   width: 100%;
