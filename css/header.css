@@ -1,0 +1,109 @@
+.headerwrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #343333;
+  z-index: 2;
+}
+
+.headerlistwrapper {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headertitle {
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  display: inline-block;
+  flex-basis: 20rem;
+}
+
+.headertitle > div {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.logocontainer {
+  height: 100%;
+  padding: 0.5rem;
+}
+.headertitle img {
+  height: 100%;
+}
+
+.headerlist {
+  position: absolute;
+  top: 4rem;
+  display: block;
+  width: 100%;
+  background: #343333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s all;
+}
+
+.headerlist > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.headerlist > a > li {
+  display: inline-block;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s all;
+  padding: 1rem 1rem;
+}
+
+.headerlist > a > li:hover:not(.activeHeaderLi) {
+  color: #6abd51;
+}
+
+.activeHeaderLi {
+  background-color: #de9658;
+  color: white;
+}
+
+.hamburger {
+  padding: 0 0.5em;
+  font-size: 1.5em;
+  line-height: 50px;
+  display: inline-block;
+  z-index: 2;
+}
+
+.hamburger:hover ~ .headerlist {
+  display: block;
+  height: 15rem;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .headerlist {
+    position: initial;
+    display: flex;
+    background: none;
+    flex: 1;
+    justify-content: flex-end;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+}
