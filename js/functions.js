@@ -4,7 +4,8 @@ if (!honapcontainer) return;
 
 let honapResult = "";
 events.forEach(month => {
-  honapResult += `<div class="honap">
+  if (month.events && month.events.length > 0) {
+    honapResult += `<div class="honap">
           <div class="honap-esemenyek">
               ${month.events
                 .map(event => {
@@ -19,6 +20,7 @@ events.forEach(month => {
               ${month.name}
           </div>
       </div>`;
+  }
 });
 honapcontainer.innerHTML = honapResult;
 
