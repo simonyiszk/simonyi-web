@@ -1,0 +1,53 @@
+.servicesHeroWrapper{
+    margin-top: 50px;
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/wall.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servicesHeroTitle{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    padding-top: 3rem;
+}
+
+.servicesWrapper{
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.servicesBox{
+    width: 100%;
+    height: 14rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.servicesBoxTitleWrapper{
+    position: absolute;
+    width: calc(100% - 4rem);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    bottom: 0;
+    left: 0;
+    height: 2rem;
+    padding: 0.5rem 2rem;
+}
+
+.serviceBoxTitle{
+    font-size: 2rem;
+}
+
+.serviceBoxTitle > a {
+    color: inherit;
+    text-decoration: none;
+}

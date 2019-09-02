@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hun">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Galéria</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="css/services.css" />
+</head>
+
+<body>
+    <scope with="services">
+        <include src="./components/header.html"></include>
+    </scope>
+    <div class="servicesHeroWrapper">
+        <div class="servicesHeroTitle">Szolgáltatások</div>
+    </div>
+    <div class="servicesWrapper">
+        <div class="servicesBox" style="background-image: url(./img/room.jpg)">
+            <div class="servicesBoxTitleWrapper">
+                <div class="serviceBoxTitle">
+                    <a href="https://termek.sch.bme.hu/teremfoglalo.html" target="_blank"
+                        rel="noreferrer">Termeigénylés</a>
+                </div>
+            </div>
+        </div>
+        <div class="servicesBox" style="background-image: url(./img/proj.jpg)">
+            <div class="servicesBoxTitleWrapper">
+                <div class="serviceBoxTitle">
+                    <a href="https://termek.sch.bme.hu/eszkozfoglalo.html" target="_blank"
+                        rel="noreferrer">Eszközigénylés</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include src="./components/footer.html"></include>
+</body>
+
+<script src="js/main.js"></script>
+</html>
