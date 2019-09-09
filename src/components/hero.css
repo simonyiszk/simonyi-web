@@ -1,0 +1,6 @@
+.heroBg {
+  height: 100vh;
+  background: url("/resources/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
