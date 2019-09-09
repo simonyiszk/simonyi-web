@@ -1,0 +1,34 @@
+.servicesSectionContainer {
+  padding: 1rem 10rem;
+  background-color: #6abd51;
+}
+.servicesSectionTitle {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+.servicesWrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+.servicesWrapper > a {
+  text-decoration: none;
+}
+.servicesBox {
+  width: 100%;
+  height: 14rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2rem 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.serviceBoxTitle {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
