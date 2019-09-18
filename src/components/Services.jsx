@@ -12,10 +12,10 @@ export default function Services() {
           rel="noopener noreferrer"
         >
           <div
-            class="servicesBox"
+            className="servicesBox"
             style={{ backgroundImage: "url(/resources/room.jpg)" }}
           >
-            <div class="serviceBoxTitle">Teremigénylés</div>
+            <div className="serviceBoxTitle">Teremigénylés</div>
           </div>
         </a>
         <a
@@ -24,10 +24,10 @@ export default function Services() {
           rel="noopener noreferrer"
         >
           <div
-            class="servicesBox"
+            className="servicesBox"
             style={{ backgroundImage: "url(/resources/proj.jpg)" }}
           >
-            <div class="serviceBoxTitle">Eszközigénylés</div>
+            <div className="serviceBoxTitle">Eszközigénylés</div>
           </div>
         </a>
       </div>
