@@ -1,5 +1,6 @@
 .footerSectionContainer {
   padding: 1rem 10rem;
+  background-color: #333333;
 }
 .footer__container {
   display: flex;
