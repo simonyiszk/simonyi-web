@@ -29,6 +29,7 @@
 .groupSocial__container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .groupSocial__contact {
   flex-basis: 33%;
