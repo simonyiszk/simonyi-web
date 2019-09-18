@@ -1,9 +1,9 @@
 .aboutSectionContainer {
-    padding-left: 10rem;
+  padding-left: 10rem;
 }
 .aboutSectionTitle {
-    color: #6abd51;
-    text-align: center;
+  color: #6abd51;
+  text-align: center;
 }
 .aboutHeroContainer {
   display: flex;
@@ -11,7 +11,7 @@
 }
 
 .aboutHeroText {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
 .aboutHeroImage {

@@ -1,0 +1,44 @@
+.group__container {
+  border: 1px solid rgb(163, 163, 163);
+  margin: 1rem 0;
+  padding: 1rem;
+}
+.group__mainContainer {
+  display: flex;
+  border-bottom: 1px solid rgb(163, 163, 163);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.groupImage__container {
+  width: 10rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+.groupImage__container > img {
+  width: 100%;
+}
+
+.groupDetails__name {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.groupSocial__container {
+}
+.groupSocial__contact {
+  display: flex;
+}
+.groupSocial__imageContainer {
+  width: 1rem;
+  flex-shrink: 0;
+  margin-right: 0.25rem;
+}
+.groupSocial__imageContainer > img {
+  width: 100%;
+}
+.groupSocial__text {
+}
