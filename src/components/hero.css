@@ -1,6 +1,23 @@
-.heroBg {
+.hero__background {
   height: 100vh;
   background: url("/resources/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__overlay {
+  width: 60%;
+}
+.hero__imageContainer, .hero__imageContainer > img {
+  width: 100%;
+}
+.hero__mail {
+  text-align: center;
+}
+.hero__mail > a {
+  color: white;
+  text-decoration: none;
+  font-size: 4rem;
 }
