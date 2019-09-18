@@ -1,0 +1,59 @@
+[
+  {
+    "name": "AC Stúdió & Live",
+    "leader": "Balla Dániel",
+    "description": "Az AC Studio & Live felel a kollégiumban tartott kisebb-nagyobb rendezvények hangosításáért és fénytechnikájáért, továbbá kezelik, üzemeltetik és karbantartják a kollégium rendezvénytechnikai eszközparkját. A kör gazdagon felszerelt hangstúdiója alkalmas kisebb zenekarok, együttesek többsávos felvételeinek elkészítésére is, amit rajtuk kívül kollégiumibandák és a Qpa csapatai is igénybe szoktak venni.",
+    "logoname": "ac",
+    "socialmedia": [
+      { "type": "web", "link": "http://acstudio.sch.bme.hu/" },
+      { "type": "email", "link": "balla.daniel@simonyi.bme.hu" },
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/acstudiolive/",
+        "display": "/acstudiolive/"
+      }
+    ]
+  },
+  {
+    "name": "Budavári Schönherz Stúdió",
+    "leader": "Pálinkás Péter",
+    "description": "A Budavári Schönherz Stúdiót legtöbben a hetente jelentkező online televízióadásairól és a rendezvényfelvételeiről ismerik. Ott voltak a Gólyatáborban, a Gólyahéten, profi eszközeikkel pedig az év további részében is olyan tartalmat közvetítenek, amiért megéri online maradni csütörtök esténként: program- és filmajánlók, rendezvénybeszámolók, interjúk és élő felvételek zenekarokkal, tanárokkal vagy diákokkal és sok minden más. Az ezzel járó szerkesztési és technikai feladatokat is a kör tagjai végzik.",
+    "logoname": "bss"
+  },
+  {
+    "name": "HA5KFU Rádióamatőr Klub",
+    "leader": "Szabó Áron",
+    "description": "A HA5KFU Rádióamatőr Klub nevét a hívójeléről kapta. 1954-es alakulásával a Villanykar legrégebbi köre, azóta foglalkoznak a rövidhullámú és URH rádióforgalmazással, műholdas kommunikációval és szoftverrádiós technológiákkal. A kollégium legtetején található műhelyükben pedig antennák és áramkörök épülnek, melyek az előbbi technológiákhoz szükségesek.",
+    "logoname": "ha5kfu"
+  },
+  {
+    "name": "Kir-Dev",
+    "leader": "Tóth Bence",
+    "description": "A Kir-Dev, vagyis a Kollégiumi Információs Rendszer Fejlesztők és Üzemeltetők 2001-ben alakult, és webfejlesztéssel, webes alkalmazások üzemeltetésével, oktatásával foglalkozik. 2017-től bővült a profiljuk a mobilalkalmazás-fejlesztéssel is. Ők fejlesztik folyamatosan a PéK (Profil és Körök) alkalmazást, amely ma már több mint 25000 felhasználóval rendelkezik.A leggyakrabban használt technológiáik közé tartoznak a nyílt forráskódú Ionic Framework, a Ruby on Rails és a Node.js. A kör által készített minden alkalmazás nyílt forráskódú, megtekinthető GitHubon, és ez a fejlesztőeszközeik kiválasztásánál is fő szempont.",
+    "logoname": "kirdev"
+  },
+  {
+    "name": "LEGO Kör",
+    "leader": "Farkas Tamás",
+    "description": "A LEGO Kör nevét a LEGO Mindstorms-ról kapta, ugyanis hosszú ideig ezen eszközök fejlesztése volt a fő profilunk. Mára nem csak ezzel foglalkozunk, nyitottunk a mesterséges intelligencia, az ipari irányítástechnika, az űrtechnológia és az alternatív irányításmódok felé is. Eszközparkunk lehetőséget nyújt az innovatív ötletek megvalósításához. Nálunk bárki megtalálhatja a számára megfelelő szakterületet.",
+    "logoname": "lego"
+  },
+  {
+    "name": "Schönherz Design Stúdió",
+    "leader": "Végvári Vilmos",
+    "description": "A Simonyi Károly Szakkollégium kreatív alkotóműhelyeként az ő feladatuk a legkülönbözőbb digitális esztétikai műfajok ápolása, mint például arculattervezés, logótervezés, webdesign, UX design, 3D modellezés vagy nyomtatott grafikák készítése. Mindezt valós projekteken teszik – egyik legnagyobb munkájuk az évről évre megrendezésre kerülő Simonyi Konferencia arculatának megtervezése.",
+    "logoname": "schdesign"
+  },
+  {
+    "name": "Schönherz Elektronikai Műhely",
+    "leader": "Frey Balázs",
+    "description": "A Schönherz Elektronikai Műhely a kollégium gyakorlatias villanyos és informatikus szakembereit fogja össze. A munkák elvégzésére egy felszerelt műhely áll a hallgatók rendelkezésre: a villamos fejlesztésekhez oszcilloszkóp, labortápegységek, forrasztási felszerelés és barkácsoláshoz szükséges alapanyagok, barkácsgépek. Jól felszerelt műhelyünkben ötleteidnek csak a kitartásod szabhat határt!",
+    "logoname": "sem"
+  },
+  {
+    "name": "SPOT",
+    "leader": "Hódosy Kristóf",
+    "description": "Minden villanykari eseményen részt vesznek, és fényképek formájában dokumentálják azokat. Emellett sokat fotóznak a Schönherz Kollégium 1419-es klubszobájában található műtermükben is, számos villanykaros önéletrajzában szerepelnek itt készült fotók. Archívumukban hosszú évekre visszamenőleg megtekinthető a villanykari közösség élete, csapatuk pedig folyamatosan fejlődik – létszámban és a belsős képzéseiknek köszönhetően szaktudásban is.",
+    "logoname": "spot"
+  }
+]
