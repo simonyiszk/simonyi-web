@@ -29,7 +29,7 @@
       },
       {
         "type": "instagram",
-        "link": "https://twitter.com/bsstudio",
+        "link": "https://www.instagram.com/budavari_schonherz_studio/",
         "display": "/bsstudio"
       },
       {
@@ -37,7 +37,7 @@
         "link": "https://youtube.com/bsstudi0",
         "display": "/bsstudi0"
       }
-    ]    
+    ]
   },
   {
     "name": "HA5KFU Rádióamatőr Klub",
@@ -52,7 +52,7 @@
         "link": "https://www.facebook.com/ha5kfu/",
         "display": "/ha5kfu"
       }
-    ] 
+    ]
   },
   {
     "name": "Kir-Dev",
@@ -67,7 +67,7 @@
         "link": "https://facebook.com/kirdevteam/",
         "display": "/kirdevteam"
       }
-    ]                        
+    ]
   },
   {
     "name": "LEGO Kör",
@@ -75,14 +75,14 @@
     "description": "A LEGO Kör nevét a LEGO Mindstorms-ról kapta, ugyanis hosszú ideig ezen eszközök fejlesztése volt a fő profilunk. Mára nem csak ezzel foglalkozunk, nyitottunk a mesterséges intelligencia, az ipari irányítástechnika, az űrtechnológia és az alternatív irányításmódok felé is. Eszközparkunk lehetőséget nyújt az innovatív ötletek megvalósításához. Nálunk bárki megtalálhatja a számára megfelelő szakterületet.",
     "logoname": "lego",
     "socialmedia": [
-      { "type": "web", "link": "http://legokor.hu/" },
+      { "type": "web", "link": "https://legokor.hu/" },
       { "type": "email", "link": "lego@sch.bme.hu" },
       {
         "type": "facebook",
         "link": "https://facebook.com/Legokor/",
         "display": "/Legokor"
       }
-    ] 
+    ]
   },
   {
     "name": "Schönherz Design Stúdió",
@@ -90,25 +90,53 @@
     "description": "A Simonyi Károly Szakkollégium kreatív alkotóműhelyeként az ő feladatuk a legkülönbözőbb digitális esztétikai műfajok ápolása, mint például arculattervezés, logótervezés, webdesign, UX design, 3D modellezés vagy nyomtatott grafikák készítése. Mindezt valós projekteken teszik – egyik legnagyobb munkájuk az évről évre megrendezésre kerülő Simonyi Konferencia arculatának megtervezése.",
     "logoname": "schdesign",
     "socialmedia": [
-      { "type": "web", "link": "http://legokor.hu/" },
-      { "type": "email", "link": "lego@sch.bme.hu" },
+      { "type": "web", "link": "http://schdesign.hu/" },
+      { "type": "email", "link": "hello@schdesign.hu" },
       {
         "type": "facebook",
-        "link": "https://facebook.com/Legokor/",
-        "display": "/Legokor"
+        "link": "https://www.facebook.com/schonherzdesignstudio/",
+        "display": "/schonherzdesignstudio"
+      },
+      {
+        "type": "instagram",
+        "link": "https://www.instagram.com/schdesign.hu/",
+        "display": "/schdesign.hu"
       }
-    ] 
+    ]
   },
   {
     "name": "Schönherz Elektronikai Műhely",
     "leader": "Frey Balázs",
     "description": "A Schönherz Elektronikai Műhely a kollégium gyakorlatias villanyos és informatikus szakembereit fogja össze. A munkák elvégzésére egy felszerelt műhely áll a hallgatók rendelkezésre: a villamos fejlesztésekhez oszcilloszkóp, labortápegységek, forrasztási felszerelés és barkácsoláshoz szükséges alapanyagok, barkácsgépek. Jól felszerelt műhelyünkben ötleteidnek csak a kitartásod szabhat határt!",
-    "logoname": "sem"
+    "logoname": "sem",
+    "socialmedia": [
+      { "type": "web", "link": "http://sem.sch.bme.hu/" },
+      { "type": "email", "link": "sem@sch.bme.hu" },
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/SchonherzElektronikaiMuhely/",
+        "display": "/SchonherzElektronikaiMuhely"
+      }
+    ]
   },
   {
     "name": "SPOT",
     "leader": "Hódosy Kristóf",
     "description": "Minden villanykari eseményen részt vesznek, és fényképek formájában dokumentálják azokat. Emellett sokat fotóznak a Schönherz Kollégium 1419-es klubszobájában található műtermükben is, számos villanykaros önéletrajzában szerepelnek itt készült fotók. Archívumukban hosszú évekre visszamenőleg megtekinthető a villanykari közösség élete, csapatuk pedig folyamatosan fejlődik – létszámban és a belsős képzéseiknek köszönhetően szaktudásban is.",
-    "logoname": "spot"
+    "logoname": "spot",
+    "socialmedia": [
+      { "type": "web", "link": "http://spot.sch.bme.hu/" },
+      { "type": "email", "link": "spot@sch.bme.hu" },
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/bmespot/",
+        "display": "/bmespot"
+      },
+      {
+        "type": "instagram",
+        "link": "https://www.instagram.com/bmespot/",
+        "display": "/bmespot"
+      }
+    ]
   }
 ]
