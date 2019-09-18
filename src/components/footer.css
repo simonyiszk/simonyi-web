@@ -1,0 +1,14 @@
+.footerSectionContainer {
+  padding: 1rem 10rem;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footerLogo__container {
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+.footerLogo__container img {
+  height: 100%;
+}
