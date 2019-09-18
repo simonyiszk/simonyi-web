@@ -10,7 +10,7 @@
       {
         "type": "facebook",
         "link": "https://www.facebook.com/acstudiolive/",
-        "display": "/acstudiolive/"
+        "display": "/acstudiolive"
       }
     ]
   },
@@ -18,31 +18,86 @@
     "name": "Budavári Schönherz Stúdió",
     "leader": "Pálinkás Péter",
     "description": "A Budavári Schönherz Stúdiót legtöbben a hetente jelentkező online televízióadásairól és a rendezvényfelvételeiről ismerik. Ott voltak a Gólyatáborban, a Gólyahéten, profi eszközeikkel pedig az év további részében is olyan tartalmat közvetítenek, amiért megéri online maradni csütörtök esténként: program- és filmajánlók, rendezvénybeszámolók, interjúk és élő felvételek zenekarokkal, tanárokkal vagy diákokkal és sok minden más. Az ezzel járó szerkesztési és technikai feladatokat is a kör tagjai végzik.",
-    "logoname": "bss"
+    "logoname": "bss",
+    "socialmedia": [
+      { "type": "web", "link": "https://bsstudio.hu/" },
+      { "type": "email", "link": "palinkas.peter@simonyi.bme.hu" },
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/bsstudio/",
+        "display": "/bssstudio"
+      },
+      {
+        "type": "instagram",
+        "link": "https://twitter.com/bsstudio",
+        "display": "/bsstudio"
+      },
+      {
+        "type": "youtube",
+        "link": "https://youtube.com/bsstudi0",
+        "display": "/bsstudi0"
+      }
+    ]    
   },
   {
     "name": "HA5KFU Rádióamatőr Klub",
     "leader": "Szabó Áron",
     "description": "A HA5KFU Rádióamatőr Klub nevét a hívójeléről kapta. 1954-es alakulásával a Villanykar legrégebbi köre, azóta foglalkoznak a rövidhullámú és URH rádióforgalmazással, műholdas kommunikációval és szoftverrádiós technológiákkal. A kollégium legtetején található műhelyükben pedig antennák és áramkörök épülnek, melyek az előbbi technológiákhoz szükségesek.",
-    "logoname": "ha5kfu"
+    "logoname": "ha5kfu",
+    "socialmedia": [
+      { "type": "web", "link": "http://ha5kfu.sch.bme.hu/" },
+      { "type": "email", "link": "ha5kfu@sch.bme.hu" },
+      {
+        "type": "facebook",
+        "link": "https://www.facebook.com/ha5kfu/",
+        "display": "/ha5kfu"
+      }
+    ] 
   },
   {
     "name": "Kir-Dev",
     "leader": "Tóth Bence",
     "description": "A Kir-Dev, vagyis a Kollégiumi Információs Rendszer Fejlesztők és Üzemeltetők 2001-ben alakult, és webfejlesztéssel, webes alkalmazások üzemeltetésével, oktatásával foglalkozik. 2017-től bővült a profiljuk a mobilalkalmazás-fejlesztéssel is. Ők fejlesztik folyamatosan a PéK (Profil és Körök) alkalmazást, amely ma már több mint 25000 felhasználóval rendelkezik.A leggyakrabban használt technológiáik közé tartoznak a nyílt forráskódú Ionic Framework, a Ruby on Rails és a Node.js. A kör által készített minden alkalmazás nyílt forráskódú, megtekinthető GitHubon, és ez a fejlesztőeszközeik kiválasztásánál is fő szempont.",
-    "logoname": "kirdev"
+    "logoname": "kirdev",
+    "socialmedia": [
+      { "type": "web", "link": "http://kir-dev.sch.bme.hu/" },
+      { "type": "email", "link": "kir-dev@sch.bme.hu" },
+      {
+        "type": "facebook",
+        "link": "https://facebook.com/kirdevteam/",
+        "display": "/kirdevteam"
+      }
+    ]                        
   },
   {
     "name": "LEGO Kör",
     "leader": "Farkas Tamás",
     "description": "A LEGO Kör nevét a LEGO Mindstorms-ról kapta, ugyanis hosszú ideig ezen eszközök fejlesztése volt a fő profilunk. Mára nem csak ezzel foglalkozunk, nyitottunk a mesterséges intelligencia, az ipari irányítástechnika, az űrtechnológia és az alternatív irányításmódok felé is. Eszközparkunk lehetőséget nyújt az innovatív ötletek megvalósításához. Nálunk bárki megtalálhatja a számára megfelelő szakterületet.",
-    "logoname": "lego"
+    "logoname": "lego",
+    "socialmedia": [
+      { "type": "web", "link": "http://legokor.hu/" },
+      { "type": "email", "link": "lego@sch.bme.hu" },
+      {
+        "type": "facebook",
+        "link": "https://facebook.com/Legokor/",
+        "display": "/Legokor"
+      }
+    ] 
   },
   {
     "name": "Schönherz Design Stúdió",
     "leader": "Végvári Vilmos",
     "description": "A Simonyi Károly Szakkollégium kreatív alkotóműhelyeként az ő feladatuk a legkülönbözőbb digitális esztétikai műfajok ápolása, mint például arculattervezés, logótervezés, webdesign, UX design, 3D modellezés vagy nyomtatott grafikák készítése. Mindezt valós projekteken teszik – egyik legnagyobb munkájuk az évről évre megrendezésre kerülő Simonyi Konferencia arculatának megtervezése.",
-    "logoname": "schdesign"
+    "logoname": "schdesign",
+    "socialmedia": [
+      { "type": "web", "link": "http://legokor.hu/" },
+      { "type": "email", "link": "lego@sch.bme.hu" },
+      {
+        "type": "facebook",
+        "link": "https://facebook.com/Legokor/",
+        "display": "/Legokor"
+      }
+    ] 
   },
   {
     "name": "Schönherz Elektronikai Műhely",
