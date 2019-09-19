@@ -9,6 +9,27 @@
 .footerLogo__container {
   height: 4rem;
 }
+.footerLogo__container > div {
+  height: 100%;
+}
 .footerLogo__container img {
   height: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footerSectionContainer {
+    padding: 1rem 5rem;
+  }
+  .footer__container {
+    flex-direction: column;
+  }
+  .footerLogo__container {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .schlogo {
+      order: 2;
+  }
 }

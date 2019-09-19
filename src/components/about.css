@@ -15,17 +15,28 @@
 }
 
 .aboutHeroImage {
-  /*position: absolute;
-  top: 0;
-  right: 0;
-  width: calc(70% - 6rem);
-  height: calc(100vh - 50px);*/
   flex-basis: 40%;
   flex-shrink: 0;
-  width: 100%;
   background-image: url("/resources/20180630_121616_spot.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: ellipse(50% 75% at 65% 50%);
+}
+
+@media only screen and (max-width: 1024px) {
+  .aboutSectionContainer {
+    padding: 0 5rem;
+  }
+  .aboutHeroContainer {
+    flex-direction: column;
+  }
+  .aboutHeroImage {
+    min-height: 200px;
+    clip-path: none;
+    margin: 0 -5rem;
+  }
+  .aboutHeroText {
+    line-height: 1.5rem;
+  }
 }

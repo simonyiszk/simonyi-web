@@ -20,7 +20,6 @@
 .groupImage__container > img {
   width: 100%;
 }
-
 .groupDetails__name {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -35,7 +34,6 @@
   flex-basis: 33%;
   margin-top: 1rem;
 }
-
 .groupSocial__contact > a {
   display: flex;
   flex-direction: column;
@@ -43,7 +41,6 @@
   color: initial;
   text-decoration: none;
 }
-
 .groupSocial__imageContainer {
   width: 2rem;
   flex-shrink: 0;
@@ -53,4 +50,32 @@
 }
 .groupSocial__text {
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .group__mainContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .groupImage__container {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  .groupDetails__name {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .groupSocial__container {
+    flex-direction: column;
+  }
+  .groupSocial__contact {
+    margin-top: 0.5rem;
+  }
+  .groupSocial__contact > a {
+    flex-direction: row;
+  }
+  .groupSocial__imageContainer {
+    margin-right: 0.5rem;
+  }
 }
