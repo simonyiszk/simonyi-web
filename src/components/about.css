@@ -4,6 +4,7 @@
 .aboutSectionTitle {
   color: #6abd51;
   text-align: center;
+  transform: translateX(calc((40%-10rem) / 2));
 }
 .aboutHeroContainer {
   display: flex;
@@ -28,6 +29,9 @@
   .aboutSectionContainer {
     padding: 0 5rem;
   }
+  .aboutSectionTitle {
+    transform: none;
+  }
   .aboutHeroContainer {
     flex-direction: column;
   }
@@ -38,5 +42,6 @@
   }
   .aboutHeroText {
     line-height: 1.5rem;
+    margin-bottom: 1rem;
   }
 }
