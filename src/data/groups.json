@@ -30,7 +30,7 @@
       {
         "type": "instagram",
         "link": "https://www.instagram.com/budavari_schonherz_studio/",
-        "display": "/bsstudio"
+        "display": "@bsstudio"
       },
       {
         "type": "youtube",
@@ -100,7 +100,7 @@
       {
         "type": "instagram",
         "link": "https://www.instagram.com/schdesign.hu/",
-        "display": "/schdesign.hu"
+        "display": "@schdesign.hu"
       }
     ]
   },
@@ -135,7 +135,7 @@
       {
         "type": "instagram",
         "link": "https://www.instagram.com/bmespot/",
-        "display": "/bmespot"
+        "display": "@bmespot"
       }
     ]
   }
