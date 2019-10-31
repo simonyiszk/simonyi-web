@@ -22,8 +22,13 @@
   font-size: 3rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .hero__mail > a {
     font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero__mail > a {
+    font-size: 1.5rem;
   }
 }
