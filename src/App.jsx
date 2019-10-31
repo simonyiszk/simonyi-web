@@ -9,17 +9,26 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import "./App.css";
 
+const customTheme = {
+  ...theme,
+  breakpoints: ["576px", "768px", "992px", "1200px"],
+  colors: {
+    ...theme.colors,
+    simonyi: "#6abd51"
+  }
+};
+
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={customTheme}>
       <CSSReset />
       <div>
         <Hero />
         <About />
-        <Services />
+        {/*<Services />
         <Groups />
         <Gallery />
-        <Footer />
+        <Footer />*/}
       </div>
     </ThemeProvider>
   );
