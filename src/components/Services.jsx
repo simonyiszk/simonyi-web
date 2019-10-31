@@ -1,36 +1,65 @@
 import React from "react";
-import "./services.css";
+import { Box, Flex, Heading } from "@chakra-ui/core";
 
 export default function Services() {
   return (
-    <div className="servicesSectionContainer">
-      <h1 className="servicesSectionTitle">Szolgáltatások</h1>
-      <div className="servicesWrapper">
-        <a
+    <Flex
+      p={["1rem 5rem", null, "1rem 10rem"]}
+      backgroundColor="simonyi"
+      flexDirection="column"
+      alignItems="center"
+    >
+      <Heading color="white">Szolgáltatások</Heading>
+      <Flex w={["80%", null, "60%"]} flexDirection="column">
+        <Box
+          as="a"
           href="https://termek.sch.bme.hu/teremfoglalo.html"
           target="_blank"
           rel="noopener noreferrer"
+          margin="2rem 0"
         >
-          <div
-            className="servicesBox"
-            style={{ backgroundImage: "url(/resources/room.jpg)" }}
+          <Flex
+            height={["10rem", null, "14rem"]}
+            background="url(/resources/room.jpg) no-repeat center center"
+            backgroundSize="cover"
+            alignItems="flex-end"
           >
-            <div className="serviceBoxTitle">Teremigénylés</div>
-          </div>
-        </a>
-        <a
+            <Box
+              backgroundColor="rgba(0, 0, 0, 0.8)"
+              color="white"
+              padding="0.5rem"
+              width="100%"
+              font-size="1.5rem"
+            >
+              Teremigénylés
+            </Box>
+          </Flex>
+        </Box>
+        <Box
+          as="a"
           href="https://termek.sch.bme.hu/eszkozfoglalo.html"
           target="_blank"
           rel="noopener noreferrer"
+          margin="2rem 0"
         >
-          <div
-            className="servicesBox"
-            style={{ backgroundImage: "url(/resources/proj.jpg)" }}
+          <Flex
+            height={["10rem", null, "14rem"]}
+            background="url(/resources/proj.jpg) no-repeat center center"
+            backgroundSize="cover"
+            alignItems="flex-end"
           >
-            <div className="serviceBoxTitle">Eszközigénylés</div>
-          </div>
-        </a>
-      </div>
-    </div>
+            <Box
+              backgroundColor="rgba(0, 0, 0, 0.8)"
+              color="white"
+              padding="0.5rem"
+              width="100%"
+              font-size="1.5rem"
+            >
+              Eszközigénylés
+            </Box>
+          </Flex>
+        </Box>
+      </Flex>
+    </Flex>
   );
 }
