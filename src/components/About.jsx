@@ -1,14 +1,21 @@
 import React from "react";
-import "./main.css";
-import "./about.css";
+import { Box, Flex, Heading } from "@chakra-ui/core";
 
 export default function About() {
   return (
-    <div className="aboutSectionContainer">
-      <div className="aboutHeroContainer">
-        <div>
-          <h1 className="aboutSectionTitle">Rólunk</h1>
-          <div className="aboutHeroText">
+    <Box pl={["5rem", null, "10rem"]} pr={["5rem", null, "0"]}>
+      <Flex position="relative" flexDirection={["column", null, "row"]}>
+        <Box>
+          <Heading
+            color="simonyi"
+            textAlign="center"
+            mt="2rem"
+            mb="1rem"
+            transform={[null, null, "translateX(calc((40%-10rem) / 2))"]}
+          >
+            Rólunk
+          </Heading>
+          <Box lineHeight={["1.5rem", null, "2rem"]}>
             A Simonyi Károly Szakkollégium egy hallgatói szakmai szervezet,
             amely a Villamosmérnöki és Informatikai Karon működik. A
             szakkollégium 2003-ban vette fel Simonyi Károly, a BME
@@ -24,10 +31,17 @@ export default function About() {
             tagjai által elért eredményeket minél szélesebb körben publikálja, a
             magyar felsőoktatás más egységeivel és a szakemberekkel
             megismertesse a szakkollégiumban folyó munkát.
-          </div>
-        </div>
-        <div className="aboutHeroImage"></div>
-      </div>
-    </div>
+          </Box>
+        </Box>
+        <Box
+          flexBasis="40%"
+          flexShrink="0"
+          background="url('/resources/20180630_121616_spot.jpg') no-repeat center center"
+          bgSize="cover"
+          minHeight="200px"
+          m={["1rem -5rem 0 -5rem", null, "0 0 0 1rem"]}
+        ></Box>
+      </Flex>
+    </Box>
   );
 }
