@@ -4,13 +4,13 @@ import { Box, Flex, Heading } from "@chakra-ui/core";
 export default function Services() {
   return (
     <Flex
-      p={["1rem 5rem", null, "1rem 10rem"]}
+      p={["1rem 2rem", null, "1rem 10rem"]}
       backgroundColor="simonyi"
       flexDirection="column"
       alignItems="center"
     >
       <Heading color="white">Szolgáltatások</Heading>
-      <Flex w={["80%", null, "60%"]} flexDirection="column">
+      <Flex w={["100%", null, "60%"]} flexDirection="column">
         <Box
           as="a"
           href="https://termek.sch.bme.hu/teremfoglalo.html"
