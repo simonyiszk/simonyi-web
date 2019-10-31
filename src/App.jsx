@@ -25,10 +25,10 @@ function App() {
       <div>
         <Hero />
         <About />
-        {/*<Services />
+        <Services />
         <Groups />
         <Gallery />
-        <Footer />*/}
+        <Footer />
       </div>
     </ThemeProvider>
   );
