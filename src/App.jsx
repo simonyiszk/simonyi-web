@@ -1,4 +1,6 @@
 import React from "react";
+import { theme, ThemeProvider, CSSReset } from "@chakra-ui/core";
+
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
@@ -9,14 +11,17 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      <Hero />
-      <About />
-      <Services />
-      <Groups />
-      <Gallery />
-      <Footer />
-    </div>
+    <ThemeProvider theme={theme}>
+      <CSSReset />
+      <div>
+        <Hero />
+        <About />
+        <Services />
+        <Groups />
+        <Gallery />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 
