@@ -12,16 +12,16 @@ export default function Group(props) {
       border="1px solid rgb(163, 163, 163)"
       margin="1rem 0"
       padding="1rem"
-      flexDirection={["column", null, "row"]}
+      flexDirection={["column", null, null, "row"]}
       transition="height 0.2s linear"
     >
-      <Flex alignItems="center" flexDirection={["column", null, "row"]}>
+      <Flex alignItems="center" flexDirection={["column", null, null, "row"]}>
         <Flex
           width="10rem"
           flexShrink="0"
           justifyContent="center"
           alignItems="center"
-          mr={["0", null, "2rem"]}
+          mr={["0", null, null, "2rem"]}
         >
           <Image
             src={`./resources/groups/${props.data.logoname}.svg`}
@@ -30,9 +30,9 @@ export default function Group(props) {
         </Flex>
         <Box>
           <Box
-            fontSize={["1.5rem", null, "2rem"]}
-            m={["1rem 0", null, "0 0 2rem 0"]}
-            textAlign={["center", null, "left"]}
+            fontSize={["1.5rem", null, null, "2rem"]}
+            m={["1rem 0", null, null, "0 0 2rem 0"]}
+            textAlign={["center", null, null, "left"]}
           >
             {props.data.name}
           </Box>
@@ -40,19 +40,20 @@ export default function Group(props) {
         </Box>
       </Flex>
       <Flex
-        flexDirection={["row", null, "column"]}
-        m={["1rem 0 0 0", null, "0 0 0 1rem"]}
+        flexDirection={["row", null, null, "column"]}
+        m={["1rem 0 0 0", null, null, "0 0 0 1rem"]}
+        justifyContent="center"
       >
         {props.data.socialmedia &&
           props.data.socialmedia.map((s, i) => (
             <Box
               key={s.link}
               className="groupsocial"
-              m={["0 1rem 0 0", null, "0 0 1rem 0"]}
+              m={["0 1rem 0 0", null, null, "0 0 1rem 0"]}
               position="relative"
             >
               <Box
-                display={["none", null, "block"]}
+                display={["none", null, null, "block"]}
                 position="absolute"
                 top="50%"
                 left="0"
@@ -77,7 +78,7 @@ export default function Group(props) {
                 </Flex>
               </Box>
               <Flex
-                display={["none", null, "block"]}
+                display={["none", null, null, "block"]}
                 as="a"
                 href={`${s.type === "email" ? "mailto:" : ""}${s.link}`}
                 target="_blank"
@@ -92,9 +93,10 @@ export default function Group(props) {
               </Flex>
 
               <Box
-                display={["block", null, "none"]}
+                display={["block", null, null, "none"]}
                 width="2rem"
                 flexShrink="0"
+                cursor="pointer"
                 onClick={e => socialClick(i)}
               >
                 <Image src={`./resources/social/${s.type}.svg`} alt={s.link} />
@@ -103,13 +105,14 @@ export default function Group(props) {
           ))}
       </Flex>
       <Flex
-        display={["block", null, "none"]}
+        display={["block", null, null, "none"]}
         border="1px solid rgb(163,163,163)"
         p="0.25rem 0.5rem"
         transform={active > -1 ? "scaleY(1)" : "scaleY(0)"}
         minHeight={active > -1 ? "1.5rem" : "0"}
         transformOrigin="top"
-        mt={active > -1 ? "0.5rem" : "0"}
+        mt="0.5rem"
+        mb={active > -1 ? "0" : "-1rem"}
         transition="transform 0.2s linear, min-height 0.2s linear, margin 0.2s linear"
       >
         {active > -1 && (
