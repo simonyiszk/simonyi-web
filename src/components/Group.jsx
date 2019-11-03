@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Flex, Image } from "@chakra-ui/core";
+import "./main.css";
 
 export default function Group(props) {
   return (
@@ -41,9 +42,33 @@ export default function Group(props) {
           props.data.socialmedia.map(s => (
             <Box
               key={s.link}
-              className="groupSocial__contact"
+              className="groupsocial"
               m={["0 1rem 0 0", null, "0 0 1rem 0"]}
+              position="relative"
             >
+              <Box
+                position="absolute"
+                top="50%"
+                left="0"
+                transform="translate(-100%, -50%) translateX(-10px)"
+                color="white"
+                backgroundColor="#000000cc"
+                p="0.25rem 0.5rem"
+                fontSize="0.75rem"
+                visibility="hidden"
+                opacity="0"
+                transition="visibility 0.3s linear,opacity 0.3s linear"
+                className="groupsocial__toolbox"
+              >
+                <Flex
+                  as="a"
+                  href={`${s.type === "email" ? "mailto:" : ""}${s.link}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {s.link}
+                </Flex>
+              </Box>
               <Flex
                 as="a"
                 href={`${s.type === "email" ? "mailto:" : ""}${s.link}`}
