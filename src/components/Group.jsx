@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box, Flex, Image } from "@chakra-ui/core";
 import "./main.css";
 
 export default function Group(props) {
+  const [active, setActive] = useState(-1);
+
+  const socialClick = i => setActive(active === i ? -1 : i);
+
   return (
     <Flex
       border="1px solid rgb(163, 163, 163)"
       margin="1rem 0"
       padding="1rem"
       flexDirection={["column", null, "row"]}
+      transition="height 0.2s linear"
     >
       <Flex alignItems="center" flexDirection={["column", null, "row"]}>
         <Flex
@@ -39,7 +44,7 @@ export default function Group(props) {
         m={["1rem 0 0 0", null, "0 0 0 1rem"]}
       >
         {props.data.socialmedia &&
-          props.data.socialmedia.map(s => (
+          props.data.socialmedia.map((s, i) => (
             <Box
               key={s.link}
               className="groupsocial"
@@ -55,6 +60,7 @@ export default function Group(props) {
                 color="white"
                 backgroundColor="#000000cc"
                 p="0.25rem 0.5rem"
+                whiteSpace="nowrap"
                 fontSize="0.75rem"
                 visibility="hidden"
                 opacity="0"
@@ -71,6 +77,7 @@ export default function Group(props) {
                 </Flex>
               </Box>
               <Flex
+                display={["none", null, "block"]}
                 as="a"
                 href={`${s.type === "email" ? "mailto:" : ""}${s.link}`}
                 target="_blank"
@@ -83,8 +90,40 @@ export default function Group(props) {
                   />
                 </Box>
               </Flex>
+
+              <Box
+                display={["block", null, "none"]}
+                width="2rem"
+                flexShrink="0"
+                onClick={e => socialClick(i)}
+              >
+                <Image src={`./resources/social/${s.type}.svg`} alt={s.link} />
+              </Box>
             </Box>
           ))}
+      </Flex>
+      <Flex
+        display={["block", null, "none"]}
+        border="1px solid rgb(163,163,163)"
+        p="0.25rem 0.5rem"
+        transform={active > -1 ? "scaleY(1)" : "scaleY(0)"}
+        minHeight={active > -1 ? "1.5rem" : "0"}
+        transformOrigin="top"
+        mt={active > -1 ? "0.5rem" : "0"}
+        transition="transform 0.2s linear, min-height 0.2s linear, margin 0.2s linear"
+      >
+        {active > -1 && (
+          <Flex
+            as="a"
+            href={`${
+              props.data.socialmedia[active].type === "email" ? "mailto:" : ""
+            }${props.data.socialmedia[active].link}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {props.data.socialmedia[active].link}
+          </Flex>
+        )}
       </Flex>
     </Flex>
   );
