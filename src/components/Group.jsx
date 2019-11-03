@@ -47,6 +47,7 @@ export default function Group(props) {
               position="relative"
             >
               <Box
+                display={["none", null, "block"]}
                 position="absolute"
                 top="50%"
                 left="0"
@@ -81,9 +82,6 @@ export default function Group(props) {
                     alt={s.link}
                   />
                 </Box>
-                {/*<Box className="groupSocial__text">
-                  {s.display ? s.display : s.link}
-          </Box>*/}
               </Flex>
             </Box>
           ))}
