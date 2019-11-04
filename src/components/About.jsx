@@ -40,6 +40,7 @@ export default function About() {
           bgSize="cover"
           minHeight="200px"
           m={["1rem -2rem 0 -2rem", null, "0 0 0 1rem"]}
+          className="aboutimage"
         ></Box>
       </Flex>
     </Box>
