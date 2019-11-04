@@ -6,7 +6,7 @@
     "logoname": "ac",
     "socialmedia": [
       { "type": "web", "link": "http://acstudio.sch.bme.hu/" },
-      { "type": "email", "link": "balla.daniel@simonyi.bme.hu" },
+      { "type": "email", "link": "ac-info@simonyi.bme.hu" },
       {
         "type": "facebook",
         "link": "https://www.facebook.com/acstudiolive/",
@@ -21,7 +21,7 @@
     "logoname": "bss",
     "socialmedia": [
       { "type": "web", "link": "https://bsstudio.hu/" },
-      { "type": "email", "link": "palinkas.peter@simonyi.bme.hu" },
+      { "type": "email", "link": "bssinfo@sch.bme.hu" },
       {
         "type": "facebook",
         "link": "https://www.facebook.com/bsstudio/",
