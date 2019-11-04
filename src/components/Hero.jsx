@@ -11,7 +11,7 @@ export default function Hero() {
       justify="center"
       alignItems="center"
     >
-      <Box w="60%">
+      <Box width={["80%", null, "60%"]}>
         <Box>
           <Image src="./resources/simonyi_white.svg" alt="Simonyi" />
         </Box>
@@ -19,7 +19,7 @@ export default function Hero() {
           textAlign="center"
           color="white"
           textDecor="none"
-          fontSize={["1.5rem", "2rem", "3rem"]}
+          fontSize={["1rem", "1.5rem", "3rem"]}
         >
           <a href="mailto:info@simonyi.bme.hu">info@simonyi.bme.hu</a>
         </Box>
