@@ -16,7 +16,7 @@ export default function Services() {
           href="https://termek.sch.bme.hu/teremfoglalo.html"
           target="_blank"
           rel="noopener noreferrer"
-          margin="2rem 0"
+          margin={["1rem 0", null, "2rem 0"]}
         >
           <Flex
             height={["10rem", null, "14rem"]}
@@ -40,7 +40,7 @@ export default function Services() {
           href="https://termek.sch.bme.hu/eszkozfoglalo.html"
           target="_blank"
           rel="noopener noreferrer"
-          margin="2rem 0"
+          margin={["1rem 0", null, "2rem 0"]}
         >
           <Flex
             height={["10rem", null, "14rem"]}

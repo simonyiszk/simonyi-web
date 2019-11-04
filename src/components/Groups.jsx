@@ -6,11 +6,16 @@ import data from "../data/groups";
 
 export default function Groups() {
   return (
-    <Box p={["1rem 2rem", null, "1rem 10rem"]}>
-      <Heading color="simonyi" textAlign="center" mt="1rem" mb="2rem">
+    <Box p={["0 2rem", null, "0 10rem"]}>
+      <Heading
+        color="simonyi"
+        textAlign="center"
+        mt="1rem"
+        mb={["1rem", null, "2rem"]}
+      >
         Köreink
       </Heading>
-      <Box className="groupsWrapper">
+      <Box>
         {data.map(d => (
           <Group key={d.name} data={d} />
         ))}
