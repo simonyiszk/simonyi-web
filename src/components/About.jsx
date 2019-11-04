@@ -3,13 +3,13 @@ import { Box, Flex, Heading } from "@chakra-ui/core";
 
 export default function About() {
   return (
-    <Box pl={["2rem", null, "10rem"]} pr={["2rem", null, "0"]}>
+    <Box p={["1rem 2rem 1rem 2rem", null, "1rem 0 1rem 10rem"]}>
       <Flex position="relative" flexDirection={["column", null, "row"]}>
         <Box>
           <Heading
             color="simonyi"
             textAlign="center"
-            mt="2rem"
+            mt="1rem"
             mb="1rem"
             transform={[null, null, "translateX(calc((40%-10rem) / 2))"]}
           >
