@@ -1,44 +1,66 @@
 import React from "react";
-import "./footer.css";
+import { Box, Flex, Image } from "@chakra-ui/core";
 
 export default function Footer() {
   return (
-    <div className="footerSectionContainer">
-      <div className="footer__container">
-        <div className="footerLogo__container schlogo">
-          <div>
-            <a
+    <Box backgroundColor="#333333" p={["1rem 5rem", null, null, "1rem 10rem"]}>
+      <Flex
+        justifyContent="space-between"
+        flexDirection={["column", null, null, "row"]}
+      >
+        <Flex
+          justifyContent="center"
+          mb={["1rem", null, null, "0"]}
+          order={["2", null, null, "0"]}
+        >
+          <Box>
+            <Flex
+              as="a"
               href="https://svie.hu/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={`./resources/footer/sch_small.svg`} alt="Schönherz" />
-            </a>
-          </div>
-        </div>
-        <div className="footerLogo__container">
-          <div>
-            <a
+              <Image
+                height="4rem"
+                src={`./resources/footer/sch_small.svg`}
+                alt="Schönherz"
+              />
+            </Flex>
+          </Box>
+        </Flex>
+        <Flex justifyContent="center" mb={["1rem", null, null, "0"]}>
+          <Box>
+            <Flex
+              as="a"
               href="https://simonyi.bme.hu/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={`./resources/footer/simonyi.svg`} alt="Schönherz" />
-            </a>
-          </div>
-        </div>
-        <div className="footerLogo__container">
-          <div>
-            <a
+              <Image
+                height="4rem"
+                src={`./resources/footer/simonyi.svg`}
+                alt="Schönherz"
+              />
+            </Flex>
+          </Box>
+        </Flex>
+        <Flex justifyContent="center" mb={["1rem", null, null, "0"]}>
+          <Box>
+            <Flex
+              as="a"
               href="http://www.vik.bme.hu/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={`./resources/footer/vik.svg`} alt="BME-VIK" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+              <Image
+                height="4rem"
+                src={`./resources/footer/vik.svg`}
+                alt="BME-VIK"
+              />
+            </Flex>
+          </Box>
+        </Flex>
+      </Flex>
+    </Box>
   );
 }
