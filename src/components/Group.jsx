@@ -69,26 +69,31 @@ export default function Group(props) {
                   {s.link}
                 </Flex>
               </Box>
-              <Flex
-                as="a"
-                href={`${s.type === "email" ? "mailto:" : ""}${s.link}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                alignItems="center"
-              >
-                <Box width="2rem" flexShrink="0">
-                  <Image
-                    src={`./resources/social/${s.type}.svg`}
-                    alt={s.link}
-                  />
-                </Box>
-                <Box
+              <Flex alignItems="center">
+                <Flex
+                  as="a"
+                  href={`${s.type === "email" ? "mailto:" : ""}${s.link}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Box width="2rem" flexShrink="0">
+                    <Image
+                      src={`./resources/social/${s.type}.svg`}
+                      alt={s.link}
+                    />
+                  </Box>
+                </Flex>
+                <Flex
+                  as="a"
+                  href={`${s.type === "email" ? "mailto:" : ""}${s.link}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   display={["block", null, null, "none"]}
-                  ml="1rem"
+                  ml="0.5rem"
                   fontSize={["0.75rem", "1rem"]}
                 >
                   {s.display || s.link}
-                </Box>
+                </Flex>
               </Flex>
             </Box>
           ))}
