@@ -11,7 +11,7 @@ import "./App.css";
 
 const customTheme = {
   ...theme,
-  breakpoints: ["576px", "768px", "992px", "1200px"],
+  breakpoints: ["372px", "768px", "992px", "1200px"],
   colors: {
     ...theme.colors,
     simonyi: "#6abd51"

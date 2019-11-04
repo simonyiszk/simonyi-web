@@ -82,7 +82,11 @@ export default function Group(props) {
                     alt={s.link}
                   />
                 </Box>
-                <Box display={["block", null, null, "none"]} ml="1rem">
+                <Box
+                  display={["block", null, null, "none"]}
+                  ml="1rem"
+                  fontSize={["0.75rem", "1rem"]}
+                >
                   {s.display || s.link}
                 </Box>
               </Flex>
