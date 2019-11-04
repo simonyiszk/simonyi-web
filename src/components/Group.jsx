@@ -123,6 +123,7 @@ export default function Group(props) {
             }${props.data.socialmedia[active].link}`}
             target="_blank"
             rel="noopener noreferrer"
+            justifyContent="center"
           >
             {props.data.socialmedia[active].link}
           </Flex>
