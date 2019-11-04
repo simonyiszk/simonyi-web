@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Box, Flex, Image } from "@chakra-ui/core";
 import "./main.css";
 
 export default function Group(props) {
-  const [active, setActive] = useState(-1);
-
-  const socialClick = i => setActive(active === i ? -1 : i);
-
   return (
     <Flex
       border="1px solid rgb(163, 163, 163)"
@@ -39,17 +35,13 @@ export default function Group(props) {
           <Box>{props.data.description}</Box>
         </Box>
       </Flex>
-      <Flex
-        flexDirection={["row", null, null, "column"]}
-        m={["1rem 0 0 0", null, null, "0 0 0 1rem"]}
-        justifyContent="center"
-      >
+      <Flex flexDirection="column" ml={["0", null, null, "1rem"]}>
         {props.data.socialmedia &&
           props.data.socialmedia.map((s, i) => (
             <Box
               key={s.link}
               className="groupsocial"
-              m={["0 1rem 0 0", null, null, "0 0 1rem 0"]}
+              m={["1rem 0 0 0", null, null, "0 0 1rem 0"]}
               position="relative"
             >
               <Box
@@ -78,11 +70,11 @@ export default function Group(props) {
                 </Flex>
               </Box>
               <Flex
-                display={["none", null, null, "block"]}
                 as="a"
                 href={`${s.type === "email" ? "mailto:" : ""}${s.link}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                alignItems="center"
               >
                 <Box width="2rem" flexShrink="0">
                   <Image
@@ -90,44 +82,12 @@ export default function Group(props) {
                     alt={s.link}
                   />
                 </Box>
+                <Box display={["block", null, null, "none"]} ml="1rem">
+                  {s.display || s.link}
+                </Box>
               </Flex>
-
-              <Box
-                display={["block", null, null, "none"]}
-                width="2rem"
-                flexShrink="0"
-                cursor="pointer"
-                onClick={e => socialClick(i)}
-              >
-                <Image src={`./resources/social/${s.type}.svg`} alt={s.link} />
-              </Box>
             </Box>
           ))}
-      </Flex>
-      <Flex
-        display={["block", null, null, "none"]}
-        border="1px solid rgb(163,163,163)"
-        p="0.25rem 0.5rem"
-        transform={active > -1 ? "scaleY(1)" : "scaleY(0)"}
-        minHeight={active > -1 ? "1.5rem" : "0"}
-        transformOrigin="top"
-        mt="0.5rem"
-        mb={active > -1 ? "0" : "-1rem"}
-        transition="transform 0.2s linear, min-height 0.2s linear, margin 0.2s linear"
-      >
-        {active > -1 && (
-          <Flex
-            as="a"
-            href={`${
-              props.data.socialmedia[active].type === "email" ? "mailto:" : ""
-            }${props.data.socialmedia[active].link}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            justifyContent="center"
-          >
-            {props.data.socialmedia[active].link}
-          </Flex>
-        )}
       </Flex>
     </Flex>
   );
