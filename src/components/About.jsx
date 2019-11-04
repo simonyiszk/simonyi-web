@@ -3,7 +3,7 @@ import { Box, Flex, Heading } from "@chakra-ui/core";
 
 export default function About() {
   return (
-    <Box p={["1rem 2rem 1rem 2rem", null, "1rem 0 1rem 10rem"]}>
+    <Box p={["1rem 2rem 0 2rem", null, "1rem 0 0 10rem"]}>
       <Flex position="relative" flexDirection={["column", null, "row"]}>
         <Box>
           <Heading
@@ -15,7 +15,11 @@ export default function About() {
           >
             Rólunk
           </Heading>
-          <Box lineHeight={["1.5rem", null, "2rem"]} textAlign="justify">
+          <Box
+            lineHeight={["1.5rem", null, "2rem"]}
+            textAlign="justify"
+            mb={["0", null, "1rem"]}
+          >
             A Simonyi Károly Szakkollégium egy hallgatói szakmai szervezet,
             amely a Villamosmérnöki és Informatikai Karon működik. A
             szakkollégium 2003-ban vette fel Simonyi Károly, a BME
