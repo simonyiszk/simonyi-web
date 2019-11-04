@@ -56,7 +56,7 @@
   },
   {
     "name": "Kir-Dev",
-    "leader": "Tóth Bence",
+    "leader": "Fehér János",
     "description": "A Kir-Dev, vagyis a Kollégiumi Információs Rendszer Fejlesztők és Üzemeltetők 2001-ben alakult, és webfejlesztéssel, webes alkalmazások üzemeltetésével, oktatásával foglalkozik. 2017-től bővült a profiljuk a mobilalkalmazás-fejlesztéssel is. Ők fejlesztik folyamatosan a PéK (Profil és Körök) alkalmazást, amely ma már több mint 25000 felhasználóval rendelkezik.A leggyakrabban használt technológiáik közé tartoznak a nyílt forráskódú Ionic Framework, a Ruby on Rails és a Node.js. A kör által készített minden alkalmazás nyílt forráskódú, megtekinthető GitHubon, és ez a fejlesztőeszközeik kiválasztásánál is fő szempont.",
     "logoname": "kirdev",
     "socialmedia": [
@@ -72,7 +72,7 @@
   {
     "name": "LEGO Kör",
     "leader": "Farkas Tamás",
-    "description": "A LEGO Kör nevét a LEGO Mindstorms-ról kapta, ugyanis hosszú ideig ezen eszközök fejlesztése volt a fő profilunk. Mára nem csak ezzel foglalkozunk, nyitottunk a mesterséges intelligencia, az ipari irányítástechnika, az űrtechnológia és az alternatív irányításmódok felé is. Eszközparkunk lehetőséget nyújt az innovatív ötletek megvalósításához. Nálunk bárki megtalálhatja a számára megfelelő szakterületet.",
+    "description": "A LEGO Kör nevét a LEGO Mindstorms-ról kapta, ugyanis hosszú ideig ezen eszközök fejlesztése volt a fő profiljuk. Mára nem csak ezzel foglalkoznak, nyitottak a mesterséges intelligencia, az ipari irányítástechnika, az űrtechnológia és az alternatív irányításmódok felé is. Eszközparkjuk lehetőséget nyújt az innovatív ötletek megvalósításához. Náluk bárki megtalálhatja a számára megfelelő szakterületet.",
     "logoname": "lego",
     "socialmedia": [
       { "type": "web", "link": "https://legokor.hu/" },
@@ -87,7 +87,7 @@
   {
     "name": "Schönherz Design Stúdió",
     "leader": "Végvári Vilmos",
-    "description": "A Simonyi Károly Szakkollégium kreatív alkotóműhelyeként az ő feladatuk a legkülönbözőbb digitális esztétikai műfajok ápolása, mint például arculattervezés, logótervezés, webdesign, UX design, 3D modellezés vagy nyomtatott grafikák készítése. Mindezt valós projekteken teszik – egyik legnagyobb munkájuk az évről évre megrendezésre kerülő Simonyi Konferencia arculatának megtervezése.",
+    "description": "A Simonyi Károly Szakkollégium kreatív alkotóműhelyeként az a kör feladata a különböző digitális műfajok ápolása, mint például az arculattervezés, a logótervezés, a webdesign, a UX design, a 3D modellezés vagy a nyomtatott grafikák készítése. Mindezt valós projekteken teszik – egyik legnagyobb munkájuk az évről évre megrendezésre kerülő Simonyi Konferencia és a Scönherz QPA arculatának megtervezése.",
     "logoname": "schdesign",
     "socialmedia": [
       { "type": "web", "link": "http://schdesign.hu/" },
@@ -122,7 +122,7 @@
   {
     "name": "SPOT",
     "leader": "Hódosy Kristóf",
-    "description": "Minden villanykari eseményen részt vesznek, és fényképek formájában dokumentálják azokat. Emellett sokat fotóznak a Schönherz Kollégium 1419-es klubszobájában található műtermükben is, számos villanykaros önéletrajzában szerepelnek itt készült fotók. Archívumukban hosszú évekre visszamenőleg megtekinthető a villanykari közösség élete, csapatuk pedig folyamatosan fejlődik – létszámban és a belsős képzéseiknek köszönhetően szaktudásban is.",
+    "description": "A kör tagjai minden villanykari eseményen részt vesznek, és fényképek formájában dokumentálják azokat. Emellett sokat fotóznak a Schönherz Kollégium 1419-es klubszobájában található műtermükben is, számos villanykaros önéletrajzában szerepelnek itt készült fotók. Archívumukban hosszú évekre visszamenőleg megtekinthető a villanykari közösség élete, csapatuk pedig folyamatosan fejlődik létszámban, és a belsős képzéseiknek köszönhetően szaktudásban is.",
     "logoname": "spot",
     "socialmedia": [
       { "type": "web", "link": "http://spot.sch.bme.hu/" },
