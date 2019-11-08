@@ -10,7 +10,30 @@ export default function Hero() {
       overflow="hidden"
       justify="center"
       alignItems="center"
+      position="relative"
     >
+      <Flex
+        position="absolute"
+        top="0"
+        width="100%"
+        justifyContent="space-between"
+        p="1rem 2rem"
+        flexDirection={["column", "row"]}
+      >
+        <Image
+          height={["3rem", null, "4rem"]}
+          mb={["1rem", "0"]}
+          order={["0", "1"]}
+          src={`./resources/footer/bme.svg`}
+          alt="BME"
+        />
+        <Image
+          height={["4rem", null, "5rem"]}
+          mb={["1rem", "0"]}
+          src={`./resources/footer/vik.svg`}
+          alt="BME-VIK"
+        />
+      </Flex>
       <Box width={["80%", null, "60%"]}>
         <Box>
           <Image src="./resources/simonyi_white.svg" alt="Simonyi" />
