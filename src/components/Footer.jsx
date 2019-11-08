@@ -3,15 +3,15 @@ import { Box, Flex, Image } from "@chakra-ui/core";
 
 export default function Footer() {
   return (
-    <Box backgroundColor="#333333" p={["1rem 5rem", null, null, "1rem 10rem"]}>
+    <Box backgroundColor="#333333" p={["1rem 5rem", null, "1rem 10rem"]}>
       <Flex
         justifyContent="space-between"
-        flexDirection={["column", null, null, "row"]}
+        flexDirection={["column", null, "row"]}
       >
         <Flex
           justifyContent="center"
-          mb={["1rem", null, null, "0"]}
-          order={["2", null, null, "0"]}
+          mb={["1rem", null, "0"]}
+          order={["2", null, "0"]}
         >
           <Box>
             <Flex
@@ -28,7 +28,7 @@ export default function Footer() {
             </Flex>
           </Box>
         </Flex>
-        <Flex justifyContent="center" mb={["1rem", null, null, "0"]}>
+        <Flex justifyContent="center" mb={["1rem", null, "0"]}>
           <Box>
             <Flex
               as="a"
@@ -44,7 +44,7 @@ export default function Footer() {
             </Flex>
           </Box>
         </Flex>
-        <Flex justifyContent="center" mb={["1rem", null, null, "0"]}>
+        <Flex justifyContent="center" mb={["1rem", null, "0"]}>
           <Box>
             <Flex
               as="a"
