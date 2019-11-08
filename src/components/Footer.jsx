@@ -11,19 +11,19 @@ export default function Footer() {
         <Flex
           justifyContent="center"
           mb={["1rem", null, "0"]}
-          order={["2", null, "0"]}
+          order={["1", null, "0"]}
         >
           <Box>
             <Flex
               as="a"
-              href="https://svie.hu/"
+              href="http://www.vik.bme.hu/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
                 height="4rem"
-                src={`./resources/footer/sch_small.svg`}
-                alt="Schönherz"
+                src={`./resources/footer/vik.svg`}
+                alt="BME-VIK"
               />
             </Flex>
           </Box>
@@ -44,18 +44,18 @@ export default function Footer() {
             </Flex>
           </Box>
         </Flex>
-        <Flex justifyContent="center" mb={["1rem", null, "0"]}>
+        <Flex justifyContent="center" mb={["1rem", null, "0"]} order="2">
           <Box>
             <Flex
               as="a"
-              href="http://www.vik.bme.hu/"
+              href="https://svie.hu/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
                 height="4rem"
-                src={`./resources/footer/vik.svg`}
-                alt="BME-VIK"
+                src={`./resources/footer/sch_small.svg`}
+                alt="Schönherz"
               />
             </Flex>
           </Box>
