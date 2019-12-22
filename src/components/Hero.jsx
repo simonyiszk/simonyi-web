@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Image } from "@chakra-ui/core";
+import { Box, Flex, Image, Icon } from "@chakra-ui/core";
 
 export default function Hero() {
   return (
@@ -46,6 +46,17 @@ export default function Hero() {
         >
           <a href="mailto:info@simonyi.bme.hu">info@simonyi.bme.hu</a>
         </Box>
+      </Box>
+      <Box
+        textAlign="center"
+        position="absolute"
+        bottom="0">
+        <Icon
+          name="arrow-down"
+          size={["1.75rem", "2rem", "2.25rem"]}
+          color="white"
+          mb=".5rem"
+        />
       </Box>
     </Flex>
   );
