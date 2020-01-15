@@ -5,7 +5,10 @@ export default function Hero() {
   return (
     <Flex
       height="100vh"
-      background="url('/resources/bg.jpg') no-repeat center center fixed"
+      backgroundImage="url('/resources/bg.jpg')"
+      backgroundRepeat="no-repeat"
+      backgroundPosition="center center"
+      backgroundAttachment={["initial", null, "fixed"]}
       bgSize="cover"
       overflow="hidden"
       justify="center"
