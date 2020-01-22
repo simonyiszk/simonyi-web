@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Gólyakörte",
+    "altTitle": "Gyere és találkozz velünk!",
+    "description": [
+      {
+        "title": "Kik vagyunk?",
+        "text": ["A Simonyi Károly szakkollégium csapata!"]
+      },
+      {
+        "title": "Miért mi vagyunk a legjobbak?",
+        "text": [
+          "Az egyetem mellett nálunk rengeteg emberrel megismerkedhetsz, és szerteágazó tudásra tehetsz szert",
+          "Ha érdekelnek az olyan események, mint a Simonyi Konferencia, vagy csak simán szeretnél például forrasztani, fényképezni, programozni, vagy akár designer lenni, akkor itt a helyed."
+        ]
+      },
+      {
+        "title": "Mikor?",
+        "text": ["2020. február 10. 8:00-kor, az I épületben"]
+      }
+    ],
+    "socialmedia": { "type": "web", "link": "https://golyakorte.sch.bme.hu/" }
+  }
+]

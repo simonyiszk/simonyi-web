@@ -16,8 +16,22 @@
   border-bottom: 8px solid transparent;
 }
 
+.display-header {
+  display: initial;
+}
+.collapse-header {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .aboutimage {
     clip-path: ellipse(50% 75% at 65% 50%);
+  }
+}
+@media screen and (max-width: 536px) {
+  .collapse-header {
+    display: initial;
+  }
+  .display-header {
+    display: none;
   }
 }

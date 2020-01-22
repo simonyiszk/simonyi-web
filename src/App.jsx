@@ -1,13 +1,17 @@
-import React from "react";
-import { theme, ThemeProvider, CSSReset } from "@chakra-ui/core";
+import './App.css';
 
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Services from "./components/Services";
-import Groups from "./components/Groups";
-import Gallery from "./components/Gallery";
-import Footer from "./components/Footer";
-import "./App.css";
+import { CSSReset, theme, ThemeProvider } from '@chakra-ui/core';
+import React from 'react';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+
+import About from './components/About';
+import Event from './components/Event';
+import Footer from './components/Footer';
+import Gallery from './components/Gallery';
+import Groups from './components/Groups';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Services from './components/Services';
 
 const customTheme = {
   ...theme,
@@ -23,11 +27,24 @@ function App() {
     <ThemeProvider theme={customTheme}>
       <CSSReset />
       <div>
-        <Hero />
-        <About />
-        <Services />
-        <Groups />
-        <Gallery />
+        <Router>
+          <Header />
+          <div style={{ minHeight: "100vh" }}>
+            <Switch>
+              <Route exact path="/events">
+                <Event></Event>
+              </Route>
+              <Route path="/">
+                <Hero />
+                <About />
+                <Services />
+                <Groups />
+                <Gallery />
+              </Route>
+              <Redirect from="*" to="/"></Redirect>
+            </Switch>
+          </div>
+        </Router>
         <Footer />
       </div>
     </ThemeProvider>
