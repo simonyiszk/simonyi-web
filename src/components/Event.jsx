@@ -11,9 +11,9 @@ export default function Event() {
           <Flex
             flexDirection="column"
             padding="20px"
-            marginBottom={events.length < index ? "20px" : ""}
+            marginBottom={events.length - 1 < index ? "20px" : ""}
             alignItems="center"
-            backgroundColor={index % 2 === 0 ? "000000" : "simonyi"}
+            backgroundColor={index % 2 === 0 ? "#fff" : "simonyi"}
           >
             <div style={{ maxWidth: "850px", width: "100%" }}>
               <Heading

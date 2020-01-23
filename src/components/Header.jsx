@@ -1,11 +1,10 @@
-import { Box, IconButton, Image, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/core';
+import { Flex, IconButton, Image, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/core';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <Box
-      display="flex"
+    <Flex
       alignItems="center"
       justifyContent="space-between"
       backgroundColor="#333333"
@@ -36,6 +35,6 @@ export default function Header() {
           </MenuItem>
         </MenuList>
       </Menu>
-    </Box>
+    </Flex>
   );
 }
