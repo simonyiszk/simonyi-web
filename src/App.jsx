@@ -20,7 +20,7 @@ const customTheme = {
   },
 };
 
-function App() {
+/*function App() {
   return (
     <ThemeProvider theme={customTheme}>
       <CSSReset />
@@ -41,6 +41,17 @@ function App() {
           </Route>
         </Switch>
       </Router>
+    </ThemeProvider>
+  );
+}*/
+
+function App() {
+  return (
+    <ThemeProvider theme={customTheme}>
+      <CSSReset />
+      <div>
+        <Tankor />
+      </div>
     </ThemeProvider>
   );
 }
