@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Flex, Image } from "@chakra-ui/core";
 
 import data from "../data/groups";
+import tankorlinks from "../data/tankorlinks";
 
 function TankorButton(props) {
   return (
@@ -14,18 +15,23 @@ function TankorButton(props) {
           alignItems="center"
           mx="2rem"
         >
-          {" "}
-          <Flex
-            width="10rem"
-            flexShrink="0"
-            justifyContent="center"
-            alignItems="center"
+          <a
+            href={tankorlinks[props.data.logoname]}
+            target="_blank"
+            rel="noreferrer noopener"
           >
-            <Image
-              src={`./resources/groups/${props.data.logoname}.svg`}
-              alt={props.data.name}
-            />
-          </Flex>
+            <Flex
+              width="10rem"
+              flexShrink="0"
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Image
+                src={`./resources/groups/${props.data.logoname}.svg`}
+                alt={props.data.name}
+              />
+            </Flex>
+          </a>
         </Flex>
       ) : (
         <Flex
@@ -38,7 +44,13 @@ function TankorButton(props) {
           fontSize="1.5rem"
           fontWeight="bold"
         >
-          Megnyitó
+          <a
+            href={tankorlinks["megnyito"]}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Megnyitó
+          </a>
         </Flex>
       )}
     </Box>
