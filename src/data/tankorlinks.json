@@ -1,12 +1,42 @@
 {
-    "megnyito": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603358828690?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
-    "ac": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359117390?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
-    "bss": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359193091?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
-    "ha5kfu": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359213428?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
-    "kirdev": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359233542?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
-    "lego": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359252191?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
-    "schdesign": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359273763?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
-    "sem": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359295106?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
-    "spot": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359318858?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
-    "kszk": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359356394?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d"
+    "megnyito": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603358828690?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": []
+    },
+    "ac": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359117390?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": ["hangtechnika", "fénytechnika", "stúdió"]
+    },
+    "bss": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359193091?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": ["videotechnika", "közvetítések", "élő adás"]
+    },
+    "ha5kfu": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359213428?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": ["rádió", "műhold"]
+    },
+    "kirdev": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359233542?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": ["webfejlesztés", "backend", "szoftverfejlesztés"]
+    },
+    "lego": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359252191?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": ["robotika", "MI", "irányítástechnika"]
+    },
+    "schdesign": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359273763?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": ["grafika", "design", "arculat", "frontend", "3D"]
+    },
+    "sem": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359295106?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": ["elektronika", "műhely", "CNC"]
+    },
+    "spot": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359318858?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": ["rendezvény fotózás", "műterem"]
+    },
+    "kszk": {
+        "link": "https://teams.microsoft.com/l/meetup-join/19%3a36f0d53ad3fc42b4a6c3ea9e9f4c6cd7%40thread.tacv2/1603359356394?context=%7b%22Tid%22%3a%226a3548ab-7570-4271-91a8-58da00697029%22%2c%22Oid%22%3a%22fe3f2459-1617-401f-bc40-85c2817416d9%22%7d",
+        "tags": ["szoftverfejlesztés", "hálózat üzemeltetés", "IT security", "szerver üzemeltetés", "VIK Wiki"]
+    }
 }

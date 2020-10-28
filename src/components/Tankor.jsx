@@ -6,54 +6,74 @@ import tankorlinks from "../data/tankorlinks";
 
 function TankorButton(props) {
   return (
-    <Box>
+    <Flex>
       {props.data ? (
-        <Flex
-          height="10rem"
-          flexShrink="0"
-          justifyContent="center"
-          alignItems="center"
-          mx="2rem"
-        >
+        <Flex m="1rem">
           <a
-            href={tankorlinks[props.data.logoname]}
+            href={tankorlinks[props.data.logoname].link}
             target="_blank"
             rel="noreferrer noopener"
           >
             <Flex
-              width="10rem"
               flexShrink="0"
               justifyContent="center"
               alignItems="center"
+              p="1rem"
+              boxShadow="#d2d2d2 1px 1px 2px 2px"
+              borderRadius="10px"
+              minHeight="20rem"
+              flexDir="column"
             >
-              <Image
-                src={`./resources/groups/${props.data.logoname}.svg`}
-                alt={props.data.name}
-              />
+              <Flex mb="1rem" flexGrow="1" alignItems="center">
+                <Flex
+                  width="10rem"
+                  flexShrink="0"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <Image
+                    src={`./resources/groups/${props.data.logoname}.svg`}
+                    alt={props.data.name}
+                  />
+                </Flex>
+              </Flex>
+              <Box
+                paddingTop="10px"
+                borderTop="solid 1px #d2d2d2"
+                width="10rem"
+                fontWeight="bold"
+                color="#6d6d6d"
+              >
+                {tankorlinks[props.data.logoname].tags.map(
+                  (tagName) => " #" + tagName
+                )}
+              </Box>
             </Flex>
           </a>
         </Flex>
       ) : (
-        <Flex
-          width="10rem"
-          height="5rem"
-          backgroundColor="simonyi"
-          justifyContent="center"
-          alignItems="center"
-          fontFamily="Montserrat"
-          fontSize="1.5rem"
-          fontWeight="bold"
+        <a
+          href={tankorlinks["megnyito"].link}
+          target="_blank"
+          rel="noreferrer noopener"
         >
-          <a
-            href={tankorlinks["megnyito"]}
-            target="_blank"
-            rel="noreferrer noopener"
+          <Flex
+            width="10rem"
+            height="5rem"
+            backgroundColor="simonyi"
+            justifyContent="center"
+            alignItems="center"
+            fontFamily="Montserrat"
+            fontSize="1.5rem"
+            fontWeight="bold"
+            boxShadow="#d2d2d2 0px 0px 1px 1px"
+            borderRadius="10px"
           >
             Megnyitó
-          </a>
-        </Flex>
+          </Flex>
+        </a>
       )}
-    </Box>
+    </Flex>
   );
 }
 
