@@ -1,5 +1,7 @@
 {
- "name": "App",
+ "short_name": "Simonyi",
+ "name": "Simonyi Károly Szakkollégium",
+ "description": "A Simonyi Károly Szakkollégium egy hallgatói szakmai szervezet, amely a BME Villamosmérnöki és Informatikai Karán működik.",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
