@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { theme, ThemeProvider, CSSReset } from "@chakra-ui/core";
 
 import Hero from "./components/Hero";
@@ -8,7 +8,7 @@ import Services from "./components/Services";
 import Groups from "./components/Groups";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
-import Tankor from "./components/Tankor";
+//import Tankor from "./components/Tankor";
 import "./App.css";
 
 const customTheme = {
@@ -50,7 +50,12 @@ function App() {
     <ThemeProvider theme={customTheme}>
       <CSSReset />
       <div>
-        <Tankor />
+        <Hero />
+        <About />
+        <Services />
+        <Groups />
+        <Gallery />
+        <Footer />
       </div>
     </ThemeProvider>
   );
