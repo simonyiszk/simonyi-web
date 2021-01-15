@@ -1,0 +1,95 @@
+[
+  {
+    "id": "thursday",
+    "name": "Csütörtök",
+    "date": "2021-01-21",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "Szakkollégiumi Q&A és kvíz",
+        "description": "Ha szeretnél minél többet kihozni az egyetemi éveidből, és nem elégszel meg az órákon megszerezhető tudással, bemutatjuk nektek, hogy mit is csinál egy szakkollégista. Az esemény során egy kvízzel is készülünk nektek, hogy kiderítsük ki mozog a legotthonosabban a videójátékok világában.",
+        "presenters": "Frey Balázs",
+        "timeStart": "13:00",
+        "timeEnd": "14:00"
+      },
+      {
+        "id": 2,
+        "title": "Akkumulátor technológia, avagy nikkel-kadmium helyett lítium",
+        "description": "Motorola P110 kézirádióinkban sajnos elöregedtek az akkumulátor cellák. Mivel a NiCd forgalmazását az EU korlátozta, felmerült, hogy lítium ionosra építjük át. Az előadásból megtudhatod, mi minden szükséges ahhoz, hogy egy akkumulátort teljesen más energiatároló technológiára alapozva építsünk újra.",
+        "presenters": "Csókás Bence",
+        "timeStart": "15:00",
+        "timeEnd": "15:30"
+      }
+    ]
+  },
+  {
+    "id": "friday",
+    "name": "Péntek",
+    "date": "2021-01-22",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "3D modellezés otthoni környezetben",
+        "description": "Elgondolkodtál már rajta, hogy mennyire király lenne, ha bármilyen tárgyat, ami eszedbe jut meg tudnál valósítani a virtuális világban, hogy aztán felhasználd játékokhoz, vagy 3D nyomtató segítségével életre keltsd? Ha igen, gyere el a 3D modellezős workshopunkra!",
+        "presenters": "Bódog Júlia, Ábrahám Zoltán, Hegedüs Dániel",
+        "timeStart": "11:00",
+        "timeEnd": "12:00"
+      },
+      {
+        "id": 2,
+        "title": "A websocket alapjai",
+        "description": "Ha használtál már valaha chat programot, vagy játszottál valamilyen online játékkal, biztosan találkoztál már a websockettel, még ha nem is tudsz róla. Gyere el az előadásra, és ismerd meg a technológiát, aminek köszönhetően működnek ezek az alkalmazások!",
+        "presenters": "Sepsi László",
+        "timeStart": "13:00",
+        "timeEnd": "14:00"
+      },
+      {
+        "id": 3,
+        "title": "Flappy birds mesterséges intelligenciával",
+        "description": "A flappy birds egy igencsak fárasztó játék, hiszen hosszas koncentrálást igényel. De mi lenne, ha nem nekünk kellene nyomkodni a képernyőt, hanem mesterséges intelligencia segítségével végig tudnánk játszani? Ha érdekel a válasz, gyere el erre az előadásra!",
+        "presenters": "Frey Balázs",
+        "timeStart": "15:00",
+        "timeEnd": "16:00"
+      }
+    ]
+  },
+  {
+    "id": "saturday",
+    "name": "Szombat",
+    "date": "2021-01-23",
+    "presentations": [
+      {
+        "id": 1,
+        "title": "Webes alapok - HTML, CSS",
+        "description": "Manapság mindenhol weboldalakkal találjuk szemben magunkat, legyen az közösségi platform, webáruház vagy a kedvenc XYZ-neveldéd. Ha érdekel, hogy miként tudnád megalkotni a saját weboldaladat, csatlakozz be az előadásba!",
+        "presenters": "Sepsi László",
+        "timeStart": "09:00",
+        "timeEnd": "10:00"
+      },
+      {
+        "id": 2,
+        "title": "Webes alapok - JavaScript",
+        "description": "A statikus oldalak mellett rengeteg interaktív weboldal is található. Ezek alapja a rendkívül népszerű JavaScript nyelv. Az előadáson megismerkedhetsz a JavaScript alapjaival, mely segítségével életre keltheted a weboldaladat.",
+        "presenters": "Sepsi László",
+        "timeStart": "11:00",
+        "timeEnd": "12:00"
+      },
+      {
+        "id": 3,
+        "title": "Objektumkövetés gépi látással",
+        "description": "A gépi látás egy ma nagy népszerűségnek örvendő terület. Ebből az előadásból megismerhetsz alapvető objektumkövetési technikákat, amit akár később a saját robotod építésekor is felhasználhatsz.",
+        "presenters": "Izsó András",
+        "timeStart": "13:00",
+        "timeEnd": "14:00"
+      },
+      {
+        "id": 4,
+        "title": "KarácsoNYÁKfa, és más led-es eszközök",
+        "description": "Ötlet, tervezés, gyártás, programozás. Egy egyszerű LED-es villogóhoz ezek a tudások mind szükségesek. Ha felcsigáztuk a villamosmérnök énedet, nézd meg ezt az előadást!",
+        "presenters": "Fraknói Tamás",
+        "timeStart": "15:00",
+        "timeEnd": "15:30"
+      }
+    ]
+  }
+]
