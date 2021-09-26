@@ -1,6 +1,6 @@
 import React from "react";
 //import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { theme, ThemeProvider, CSSReset } from "@chakra-ui/core";
+import { theme, ChakraProvider } from "@chakra-ui/react";
 
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -12,17 +12,18 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 const customTheme = {
-  ...theme,
-  breakpoints: ["372px", "768px", "992px", "1200px"],
-  colors: {
-    ...theme.colors,
-    simonyi: "#6abd51",
-  },
+	...theme,
+	breakpoints: ["372px", "768px", "992px", "1200px"],
+	colors: {
+		...theme.colors,
+		simonyi: "#6abd51",
+	},
 };
 
-/*function App() {
+function App() {
+	/*
   return (
-    <ThemeProvider theme={customTheme}>
+    <ChakraProvider theme={customTheme}>
       <CSSReset />
       <Router>
         <Switch>
@@ -41,24 +42,22 @@ const customTheme = {
           </Route>
         </Switch>
       </Router>
-    </ThemeProvider>
+    </ChakraProvider>
   );
-}*/
+  */
 
-function App() {
-  return (
-    <ThemeProvider theme={customTheme}>
-      <CSSReset />
-      <div>
-        <Hero />
-        <About />
-        <Services />
-        <Groups />
-        <Gallery />
-        <Footer />
-      </div>
-    </ThemeProvider>
-  );
+	return (
+		<ChakraProvider theme={customTheme}>
+			<main>
+				<Hero />
+				<About />
+				<Services />
+				<Groups />
+				<Gallery />
+				<Footer />
+			</main>
+		</ChakraProvider>
+	);
 }
 
 export default App;

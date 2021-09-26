@@ -1,23 +1,23 @@
 .groupsocial:hover .groupsocial__toolbox {
-  visibility: visible;
-  opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 
 .groupsocial__toolbox:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  margin-top: -8px;
-  width: 0;
-  height: 0;
-  border-left: 8px solid #000000cc;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -8px;
+	width: 0;
+	height: 0;
+	border-left: 8px solid #000000cc;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
 }
 
 @media screen and (min-width: 768px) {
-  .aboutimage {
-    clip-path: ellipse(50% 75% at 65% 50%);
-  }
+	.aboutimage {
+		clip-path: ellipse(50% 75% at 65% 50%);
+	}
 }
