@@ -1,147 +1,147 @@
 [
-  {
-    "name": "AC Stúdió & Live",
-    "leader": "Balla Dániel",
-    "description": "Az AC Studio & Live felel a kollégiumban tartott kisebb-nagyobb rendezvények hangosításáért és fénytechnikájáért, továbbá kezelik, üzemeltetik és karbantartják a kollégium rendezvénytechnikai eszközparkját. A kör gazdagon felszerelt hangstúdiója alkalmas kisebb zenekarok, együttesek többsávos felvételeinek elkészítésére is, amit rajtuk kívül kollégiumibandák és a Qpa csapatai is igénybe szoktak venni.",
-    "logoname": "ac",
-    "socialmedia": [
-      { "type": "web", "link": "http://acstudio.sch.bme.hu/" },
-      { "type": "email", "link": "ac-info@simonyi.bme.hu" },
-      {
-        "type": "facebook",
-        "link": "https://www.facebook.com/acstudiolive/",
-        "display": "/acstudiolive"
-      }
-    ]
-  },
-  {
-    "name": "Budavári Schönherz Stúdió",
-    "leader": "Márta Boldizsár",
-    "description": "A Budavári Schönherz Stúdiót legtöbben a hetente jelentkező online televízióadásairól és a rendezvényfelvételeiről ismerik. Ott voltak a Gólyatáborban, a Gólyahéten, profi eszközeikkel pedig az év további részében is olyan tartalmat közvetítenek, amiért megéri online maradni csütörtök esténként: program- és filmajánlók, rendezvénybeszámolók, interjúk és élő felvételek zenekarokkal, tanárokkal vagy diákokkal és sok minden más. Az ezzel járó szerkesztési és technikai feladatokat is a kör tagjai végzik.",
-    "logoname": "bss",
-    "socialmedia": [
-      { "type": "web", "link": "https://bsstudio.hu/" },
-      { "type": "email", "link": "bssinfo@sch.bme.hu" },
-      {
-        "type": "facebook",
-        "link": "https://www.facebook.com/bsstudio/",
-        "display": "/bsstudio"
-      },
-      {
-        "type": "instagram",
-        "link": "https://www.instagram.com/budavari_schonherz_studio/",
-        "display": "@budavari_schonherz_studio"
-      },
-      {
-        "type": "youtube",
-        "link": "https://youtube.com/BudavariSchonherzStudio",
-        "display": "/BudavariSchonherzStudio"
-      }
-    ]
-  },
-  {
-    "name": "HA5KFU Rádióamatőr Klub",
-    "leader": "Szabó Áron",
-    "description": "A HA5KFU Rádióamatőr Klub nevét a hívójeléről kapta. 1954-es alakulásával a Villanykar legrégebbi köre, azóta foglalkoznak a rövidhullámú és URH rádióforgalmazással, műholdas kommunikációval és szoftverrádiós technológiákkal. A kollégium legtetején található műhelyükben pedig antennák és áramkörök épülnek, melyek az előbbi technológiákhoz szükségesek.",
-    "logoname": "ha5kfu",
-    "socialmedia": [
-      { "type": "web", "link": "http://ha5kfu.sch.bme.hu/" },
-      { "type": "email", "link": "ha5kfu@simonyi.bme.hu" },
-      {
-        "type": "facebook",
-        "link": "https://www.facebook.com/ha5kfu/",
-        "display": "/ha5kfu"
-      },
-      {
-        "type": "instagram",
-        "link": "https://www.instagram.com/ha5kfu/",
-        "display": "@ha5kfu"
-      }
-    ]
-  },
-  {
-    "name": "Kir-Dev",
-    "leader": "Fehér János",
-    "description": "A Kir-Dev, vagyis a Kollégiumi Információs Rendszer Fejlesztők és Üzemeltetők 2001-ben alakult, és webfejlesztéssel, webes alkalmazások üzemeltetésével, oktatásával foglalkozik. 2017-től bővült a profiljuk a mobilalkalmazás-fejlesztéssel is. Ők fejlesztik folyamatosan a PéK (Profil és Körök) alkalmazást, amely ma már több mint 25000 felhasználóval rendelkezik. A leggyakrabban használt technológiáik közé tartoznak a nyílt forráskódú Ionic Framework, a Ruby on Rails és a Node.js. A kör által készített minden alkalmazás nyílt forráskódú, megtekinthető GitHubon, és ez a fejlesztőeszközeik kiválasztásánál is fő szempont.",
-    "logoname": "kirdev",
-    "socialmedia": [
-      { "type": "web", "link": "http://kir-dev.sch.bme.hu/" },
-      { "type": "email", "link": "kir-dev@sch.bme.hu" },
-      {
-        "type": "facebook",
-        "link": "https://facebook.com/kirdevteam/",
-        "display": "/kirdevteam"
-      }
-    ]
-  },
-  {
-    "name": "LEGO Kör",
-    "leader": "Farkas Tamás",
-    "description": "A LEGO Kör nevét a LEGO Mindstorms-ról kapta, ugyanis hosszú ideig ezen eszközök fejlesztése volt a fő profiljuk. Mára nem csak ezzel foglalkoznak, nyitottak a mesterséges intelligencia, az ipari irányítástechnika, az űrtechnológia és az alternatív irányításmódok felé is. Eszközparkjuk lehetőséget nyújt az innovatív ötletek megvalósításához. Náluk bárki megtalálhatja a számára megfelelő szakterületet.",
-    "logoname": "lego",
-    "socialmedia": [
-      { "type": "web", "link": "https://legokor.hu/" },
-      { "type": "email", "link": "lego@sch.bme.hu" },
-      {
-        "type": "facebook",
-        "link": "https://facebook.com/Legokor/",
-        "display": "/Legokor"
-      }
-    ]
-  },
-  {
-    "name": "Schönherz Design Stúdió",
-    "leader": "Végvári Vilmos",
-    "description": "A Simonyi Károly Szakkollégium kreatív alkotóműhelyeként az a kör feladata a különböző digitális műfajok ápolása, mint például az arculattervezés, a logótervezés, a webdesign, a UX design, a 3D modellezés vagy a nyomtatott grafikák készítése. Mindezt valós projekteken teszik – egyik legnagyobb munkájuk az évről évre megrendezésre kerülő Simonyi Konferencia és a Schönherz QPA arculatának megtervezése.",
-    "logoname": "schdesign",
-    "socialmedia": [
-      { "type": "web", "link": "http://schdesign.hu/" },
-      { "type": "email", "link": "hello@schdesign.hu" },
-      {
-        "type": "facebook",
-        "link": "https://www.facebook.com/schonherzdesignstudio/",
-        "display": "/schonherzdesignstudio"
-      },
-      {
-        "type": "instagram",
-        "link": "https://www.instagram.com/schdesign.hu/",
-        "display": "@schdesign.hu"
-      }
-    ]
-  },
-  {
-    "name": "Schönherz Elektronikai Műhely",
-    "leader": "Frey Balázs",
-    "description": "A Schönherz Elektronikai Műhely a kollégium gyakorlatias villanyos és informatikus szakembereit fogja össze. A munkák elvégzésére egy felszerelt műhely áll a hallgatók rendelkezésre: a villamos fejlesztésekhez oszcilloszkóp, labortápegységek, forrasztási felszerelés és barkácsoláshoz szükséges alapanyagok, barkácsgépek. Jól felszerelt műhelyünkben ötleteidnek csak a kitartásod szabhat határt!",
-    "logoname": "sem",
-    "socialmedia": [
-      { "type": "web", "link": "http://sem.sch.bme.hu/" },
-      { "type": "email", "link": "sem@sch.bme.hu" },
-      {
-        "type": "facebook",
-        "link": "https://www.facebook.com/SchonherzElektronikaiMuhely/",
-        "display": "/SchonherzElektronikaiMuhely"
-      }
-    ]
-  },
-  {
-    "name": "SPOT",
-    "leader": "Hódosy Kristóf",
-    "description": "A kör tagjai minden villanykari eseményen részt vesznek, és fényképek formájában dokumentálják azokat. Emellett sokat fotóznak a Schönherz Kollégium 1419-es klubszobájában található műtermükben is, számos villanykaros önéletrajzában szerepelnek itt készült fotók. Archívumukban hosszú évekre visszamenőleg megtekinthető a villanykari közösség élete, csapatuk pedig folyamatosan fejlődik létszámban, és a belsős képzéseiknek köszönhetően szaktudásban is.",
-    "logoname": "spot",
-    "socialmedia": [
-      { "type": "web", "link": "http://spot.sch.bme.hu/" },
-      { "type": "email", "link": "spot@simonyi.bme.hu" },
-      {
-        "type": "facebook",
-        "link": "https://www.facebook.com/bmespot/",
-        "display": "/bmespot"
-      },
-      {
-        "type": "instagram",
-        "link": "https://www.instagram.com/bmespot/",
-        "display": "@bmespot"
-      }
-    ]
-  }
+	{
+		"name": "AC Stúdió & Live",
+		"leader": "Kis Ákos",
+		"description": "Az AC Studio & Live felel a kollégiumban tartott kisebb-nagyobb rendezvények hangosításáért és fénytechnikájáért, továbbá kezelik, üzemeltetik és karbantartják a kollégium rendezvénytechnikai eszközparkját. A kör gazdagon felszerelt hangstúdiója alkalmas kisebb zenekarok, együttesek többsávos felvételeinek elkészítésére is, amit rajtuk kívül kollégiumibandák és a Qpa csapatai is igénybe szoktak venni.",
+		"logoname": "ac",
+		"socialmedia": [
+			{ "type": "web", "link": "http://acstudio.sch.bme.hu/" },
+			{ "type": "email", "link": "ac-info@simonyi.bme.hu" },
+			{
+				"type": "facebook",
+				"link": "https://www.facebook.com/acstudiolive/",
+				"display": "/acstudiolive"
+			}
+		]
+	},
+	{
+		"name": "Budavári Schönherz Stúdió",
+		"leader": "Márta Boldizsár",
+		"description": "A Budavári Schönherz Stúdiót legtöbben a hetente jelentkező online televízióadásairól és a rendezvényfelvételeiről ismerik. Ott voltak a Gólyatáborban, a Gólyahéten, profi eszközeikkel pedig az év további részében is olyan tartalmat közvetítenek, amiért megéri online maradni csütörtök esténként: program- és filmajánlók, rendezvénybeszámolók, interjúk és élő felvételek zenekarokkal, tanárokkal vagy diákokkal és sok minden más. Az ezzel járó szerkesztési és technikai feladatokat is a kör tagjai végzik.",
+		"logoname": "bss",
+		"socialmedia": [
+			{ "type": "web", "link": "https://bsstudio.hu/" },
+			{ "type": "email", "link": "bssinfo@sch.bme.hu" },
+			{
+				"type": "facebook",
+				"link": "https://www.facebook.com/bsstudio/",
+				"display": "/bsstudio"
+			},
+			{
+				"type": "instagram",
+				"link": "https://www.instagram.com/budavari_schonherz_studio/",
+				"display": "@budavari_schonherz_studio"
+			},
+			{
+				"type": "youtube",
+				"link": "https://youtube.com/BudavariSchonherzStudio",
+				"display": "/BudavariSchonherzStudio"
+			}
+		]
+	},
+	{
+		"name": "HA5KFU Rádióamatőr Klub",
+		"leader": "Bazsó Márton",
+		"description": "A HA5KFU Rádióamatőr Klub nevét a hívójeléről kapta. 1954-es alakulásával a Villanykar legrégebbi köre, azóta foglalkoznak a rövidhullámú és URH rádióforgalmazással, műholdas kommunikációval és szoftverrádiós technológiákkal. A kollégium legtetején található műhelyükben pedig antennák és áramkörök épülnek, melyek az előbbi technológiákhoz szükségesek.",
+		"logoname": "ha5kfu",
+		"socialmedia": [
+			{ "type": "web", "link": "http://ha5kfu.sch.bme.hu/" },
+			{ "type": "email", "link": "ha5kfu@simonyi.bme.hu" },
+			{
+				"type": "facebook",
+				"link": "https://www.facebook.com/ha5kfu/",
+				"display": "/ha5kfu"
+			},
+			{
+				"type": "instagram",
+				"link": "https://www.instagram.com/ha5kfu/",
+				"display": "@ha5kfu"
+			}
+		]
+	},
+	{
+		"name": "Kir-Dev",
+		"leader": "Bucsy Benjámin",
+		"description": "A Kir-Dev, vagyis a Kollégiumi Információs Rendszer Fejlesztők és Üzemeltetők 2001-ben alakult, és webfejlesztéssel, webes alkalmazások üzemeltetésével, oktatásával foglalkozik. 2017-től bővült a profiljuk a mobilalkalmazás-fejlesztéssel is. Ők fejlesztik folyamatosan a PéK (Profil és Körök) alkalmazást, amely ma már több mint 25000 felhasználóval rendelkezik. A leggyakrabban használt technológiáik közé tartoznak a nyílt forráskódú Ionic Framework, a Ruby on Rails és a Node.js. A kör által készített minden alkalmazás nyílt forráskódú, megtekinthető GitHubon, és ez a fejlesztőeszközeik kiválasztásánál is fő szempont.",
+		"logoname": "kirdev",
+		"socialmedia": [
+			{ "type": "web", "link": "http://kir-dev.sch.bme.hu/" },
+			{ "type": "email", "link": "kir-dev@sch.bme.hu" },
+			{
+				"type": "facebook",
+				"link": "https://facebook.com/kirdevteam/",
+				"display": "/kirdevteam"
+			}
+		]
+	},
+	{
+		"name": "LEGO Kör",
+		"leader": "Komáromi Sándor",
+		"description": "A LEGO Kör nevét a LEGO Mindstorms-ról kapta, ugyanis hosszú ideig ezen eszközök fejlesztése volt a fő profiljuk. Mára nem csak ezzel foglalkoznak, nyitottak a mesterséges intelligencia, az ipari irányítástechnika, az űrtechnológia és az alternatív irányításmódok felé is. Eszközparkjuk lehetőséget nyújt az innovatív ötletek megvalósításához. Náluk bárki megtalálhatja a számára megfelelő szakterületet.",
+		"logoname": "lego",
+		"socialmedia": [
+			{ "type": "web", "link": "https://legokor.hu/" },
+			{ "type": "email", "link": "lego@sch.bme.hu" },
+			{
+				"type": "facebook",
+				"link": "https://facebook.com/Legokor/",
+				"display": "/Legokor"
+			}
+		]
+	},
+	{
+		"name": "Schönherz Design Stúdió",
+		"leader": "Borbás András",
+		"description": "A Simonyi Károly Szakkollégium kreatív alkotóműhelyeként az a kör feladata a különböző digitális műfajok ápolása, mint például az arculattervezés, a logótervezés, a webdesign, a UX design, a 3D modellezés vagy a nyomtatott grafikák készítése. Mindezt valós projekteken teszik – egyik legnagyobb munkájuk az évről évre megrendezésre kerülő Simonyi Konferencia és a Schönherz QPA arculatának megtervezése.",
+		"logoname": "schdesign",
+		"socialmedia": [
+			{ "type": "web", "link": "http://schdesign.hu/" },
+			{ "type": "email", "link": "hello@schdesign.hu" },
+			{
+				"type": "facebook",
+				"link": "https://www.facebook.com/schonherzdesignstudio/",
+				"display": "/schonherzdesignstudio"
+			},
+			{
+				"type": "instagram",
+				"link": "https://www.instagram.com/schdesign.hu/",
+				"display": "@schdesign.hu"
+			}
+		]
+	},
+	{
+		"name": "Schönherz Elektronikai Műhely",
+		"leader": "Boros Balázs",
+		"description": "A Schönherz Elektronikai Műhely a kollégium gyakorlatias villanyos és informatikus szakembereit fogja össze. A munkák elvégzésére egy felszerelt műhely áll a hallgatók rendelkezésre: a villamos fejlesztésekhez oszcilloszkóp, labortápegységek, forrasztási felszerelés és barkácsoláshoz szükséges alapanyagok, barkácsgépek. Jól felszerelt műhelyünkben ötleteidnek csak a kitartásod szabhat határt!",
+		"logoname": "sem",
+		"socialmedia": [
+			{ "type": "web", "link": "http://sem.sch.bme.hu/" },
+			{ "type": "email", "link": "sem@sch.bme.hu" },
+			{
+				"type": "facebook",
+				"link": "https://www.facebook.com/SchonherzElektronikaiMuhely/",
+				"display": "/SchonherzElektronikaiMuhely"
+			}
+		]
+	},
+	{
+		"name": "SPOT",
+		"leader": "Révész Zoltán",
+		"description": "A kör tagjai minden villanykari eseményen részt vesznek, és fényképek formájában dokumentálják azokat. Emellett sokat fotóznak a Schönherz Kollégium 1419-es klubszobájában található műtermükben is, számos villanykaros önéletrajzában szerepelnek itt készült fotók. Archívumukban hosszú évekre visszamenőleg megtekinthető a villanykari közösség élete, csapatuk pedig folyamatosan fejlődik létszámban, és a belsős képzéseiknek köszönhetően szaktudásban is.",
+		"logoname": "spot",
+		"socialmedia": [
+			{ "type": "web", "link": "http://spot.sch.bme.hu/" },
+			{ "type": "email", "link": "spot@simonyi.bme.hu" },
+			{
+				"type": "facebook",
+				"link": "https://www.facebook.com/bmespot/",
+				"display": "/bmespot"
+			},
+			{
+				"type": "instagram",
+				"link": "https://www.instagram.com/bmespot/",
+				"display": "@bmespot"
+			}
+		]
+	}
 ]
