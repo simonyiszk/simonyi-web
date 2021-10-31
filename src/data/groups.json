@@ -62,7 +62,7 @@
 	{
 		"name": "Kir-Dev",
 		"leader": "Bucsy Benjámin",
-		"description": "A Kir-Dev, vagyis a Kollégiumi Információs Rendszer Fejlesztők és Üzemeltetők 2001-ben alakult, és webfejlesztéssel, webes alkalmazások üzemeltetésével, oktatásával foglalkozik. 2017-től bővült a profiljuk a mobilalkalmazás-fejlesztéssel is. Ők fejlesztik folyamatosan a PéK (Profil és Körök) alkalmazást, amely ma már több mint 25000 felhasználóval rendelkezik. A leggyakrabban használt technológiáik közé tartoznak a nyílt forráskódú Ionic Framework, a Ruby on Rails és a Node.js. A kör által készített minden alkalmazás nyílt forráskódú, megtekinthető GitHubon, és ez a fejlesztőeszközeik kiválasztásánál is fő szempont.",
+		"description": "A Kir-Dev, vagyis a Kollégiumi Információs Rendszer Fejlesztők és Üzemeltetők 2001-ben alakult, és webfejlesztéssel, webes alkalmazások üzemeltetésével, oktatásával foglalkozik. Ők fejlesztik folyamatosan a PéK (Profil és Körök) alkalmazást, amely ma már több mint 25000 felhasználóval rendelkezik. Emellett a TanulóSCH és SCHPincér weboldalkat is a kör tagjai készítették. A leggyakrabban használt technológiáik közé tartoznak a nyílt forráskódú Ruby on Rails, Node.js és Spring Boot keretrendszerek. A kör által készített összes alkalmazás nyílt forráskódú, megtekinthető GitHubon.",
 		"logoname": "kirdev",
 		"socialmedia": [
 			{ "type": "web", "link": "http://kir-dev.sch.bme.hu/" },
