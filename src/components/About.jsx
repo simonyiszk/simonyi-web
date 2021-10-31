@@ -3,7 +3,7 @@ import { Box, Flex, Heading } from "@chakra-ui/react";
 
 export default function About() {
 	return (
-		<Box p={["0 2rem 0 2rem", null, "0 0 0 10rem"]}>
+		<Box p={["0 1rem", null, "0 0 0 10rem"]}>
 			<Flex position="relative" flexDirection={["column", null, "row"]}>
 				<Box>
 					<Heading
@@ -42,7 +42,7 @@ export default function About() {
 					background="url('/resources/20180630_121616_spot.jpg') no-repeat center center"
 					bgSize="cover"
 					minHeight="200px"
-					m={["1rem -2rem 0 -2rem", null, "0 0 0 1rem"]}
+					m={["1rem -1rem 0 -1rem", null, "0 0 0 1rem"]}
 					className="aboutimage"
 				></Box>
 			</Flex>

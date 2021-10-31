@@ -6,7 +6,7 @@ import data from "../data/groups";
 
 export default function Groups() {
 	return (
-		<Box p={["0 2rem", null, "0 10rem"]}>
+		<Box p={["0 1rem", null, "0 10rem"]}>
 			<Heading
 				color="simonyi"
 				textAlign="center"

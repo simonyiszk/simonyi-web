@@ -16,7 +16,7 @@
 	border-bottom: 8px solid transparent;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 	.aboutimage {
 		clip-path: ellipse(50% 75% at 65% 50%);
 	}

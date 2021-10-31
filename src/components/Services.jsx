@@ -4,7 +4,7 @@ import { Box, Flex, Heading } from "@chakra-ui/react";
 export default function Services() {
 	return (
 		<Flex
-			p={["1rem 2rem", null, "1rem 10rem"]}
+			p={["1rem 1rem", null, "1rem 10rem"]}
 			backgroundColor="simonyi"
 			flexDirection="column"
 			alignItems="center"

@@ -21,13 +21,13 @@ export default function Group(props) {
 				>
 					<Image
 						src={`./resources/groups/${props.data.logoname}.svg`}
-						alt={props.data.name}
+						alt={props.data.name + " logó"}
 					/>
 				</Flex>
 				<Box>
 					<Box
 						fontSize={["1.5rem", null, null, "2rem"]}
-						m={["1rem 0", null, null, "0 0 2rem 0"]}
+						m={["1rem 0", null, null, "0 0 1rem 0"]}
 						textAlign={["center", null, null, "left"]}
 					>
 						{props.data.name}
