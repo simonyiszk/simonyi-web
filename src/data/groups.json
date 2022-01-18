@@ -16,8 +16,8 @@
 	},
 	{
 		"name": "Budavári Schönherz Stúdió",
-		"leader": "Márta Boldizsár",
-		"description": "A Budavári Schönherz Stúdiót legtöbben a hetente jelentkező online televízióadásairól és a rendezvényfelvételeiről ismerik. Ott voltak a Gólyatáborban, a Gólyahéten, profi eszközeikkel pedig az év további részében is olyan tartalmat közvetítenek, amiért megéri online maradni csütörtök esténként: program- és filmajánlók, rendezvénybeszámolók, interjúk és élő felvételek zenekarokkal, tanárokkal vagy diákokkal és sok minden más. Az ezzel járó szerkesztési és technikai feladatokat is a kör tagjai végzik.",
+		"leader": "Málnási Dávid",
+		"description": "A Budavári Schönherz Stúdiót legtöbben a hetente jelentkező élő online televízióadásairól és a rendezvények közvetítéséről, megörökítéséről ismerik. Ott voltak a Gólyatáborban, a Gólyahéten, a QPA-n, profi eszközeikkel pedig az év további részében is olyan tartalmat közvetítenek, amiért megéri online maradni csütörtök esténként: program- és filmajánlók, rendezvénybeszámolók, interjúk és élő felvételek zenekarokkal, tanárokkal vagy diákokkal és sok minden más. Az ezzel járó szerkesztési és technikai feladatokat is a kör tagjai végzik.",
 		"logoname": "bss",
 		"socialmedia": [
 			{ "type": "web", "link": "https://bsstudio.hu/" },
@@ -34,8 +34,8 @@
 			},
 			{
 				"type": "youtube",
-				"link": "https://youtube.com/BudavariSchonherzStudio",
-				"display": "/BudavariSchonherzStudio"
+				"link": "https://youtube.com/bsstudi0/",
+				"display": "/bsstudi0"
 			}
 		]
 	},
