@@ -11,7 +11,11 @@ export default function Group(props) {
 			flexDirection={["column", null, null, "row"]}
 			transition="height 0.2s linear"
 		>
-			<Flex alignItems="center" flexDirection={["column", null, null, "row"]}>
+			<Flex
+				alignItems="center"
+				flexDirection={["column", null, null, "row"]}
+				w="100%"
+			>
 				<Flex
 					width="10rem"
 					flexShrink="0"
@@ -35,13 +39,17 @@ export default function Group(props) {
 					<Box>{props.data.description}</Box>
 				</Box>
 			</Flex>
-			<Flex flexDirection="column" ml={["0", null, null, "1rem"]}>
+			<Flex
+				flexDirection="column"
+				justifyContent="space-evenly"
+				ml={["0", null, null, "1rem"]}
+			>
 				{props.data.socialmedia &&
 					props.data.socialmedia.map((s, i) => (
 						<Box
 							key={s.link}
 							className="groupsocial"
-							m={["1rem 0 0 0", null, null, "0 0 1rem 0"]}
+							m={["1rem 0 0 0", null, null, "0.25rem 0 0.25rem 0"]}
 							position="relative"
 						>
 							<Box
