@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Flex, Image } from "@chakra-ui/react";
-import { ArrowDownIcon } from "@chakra-ui/icons";
+import { Box, Flex, Image, Link, Heading } from "@chakra-ui/react";
+import { ArrowDownIcon, ExternalLinkIcon } from "@chakra-ui/icons";
 
 export default function Hero() {
 	return (
@@ -39,8 +39,28 @@ export default function Hero() {
 				/>
 			</Flex>
 			<Box width={["80%", null, "60%"]}>
+				<Box
+					textAlign="center"
+					color="white"
+					textDecor="none"
+					fontSize={["1rem", "1.5rem", "3rem"]}
+				>
+					<Link href="/tanfolyam">
+						Tanfolyamok
+						<ExternalLinkIcon
+							w={["1.25rem", "1.5rem", "2.25rem"]}
+							h={["1.25rem", "1.5rem", "2.25rem"]}
+							color="white"
+							mb=".5rem"
+							ml="1rem"
+						/>
+					</Link>
+				</Box>
 				<Box>
-					<Image src="./resources/simonyi_white.svg" alt="Simonyi" />
+					<Image
+						src="./resources/simonyi_white.svg"
+						alt="Simonyi Károly Szakkollégium logó"
+					/>
 				</Box>
 				<Box
 					textAlign="center"
@@ -48,7 +68,7 @@ export default function Hero() {
 					textDecor="none"
 					fontSize={["1rem", "1.5rem", "3rem"]}
 				>
-					<a href="mailto:info@simonyi.bme.hu">info@simonyi.bme.hu</a>
+					<Link href="mailto:info@simonyi.bme.hu">info@simonyi.bme.hu</Link>
 				</Box>
 			</Box>
 			<Box textAlign="center" position="absolute" bottom="0">
