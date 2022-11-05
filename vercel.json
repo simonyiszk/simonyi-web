@@ -5,11 +5,6 @@
 
 	"redirects": [
 		{
-			"source": "/ntp2020",
-			"destination": "https://old.simonyi.bme.hu/ntp2020",
-			"permanent": true
-		},
-		{
 			"source": "/ntp2020/:path*",
 			"destination": "https://old.simonyi.bme.hu/ntp2020/:path*",
 			"permanent": true
@@ -17,6 +12,46 @@
 		{
 			"source": "/docs/:path*",
 			"destination": "https://old.simonyi.bme.hu/docs/:path*",
+			"permanent": true
+		},
+		{
+			"source": "/blog/:path*",
+			"destination": "https://old.simonyi.bme.hu/blog/:path*",
+			"permanent": true
+		},
+		{
+			"source": "/drive/:path*",
+			"destination": "https://old.simonyi.bme.hu/drive/:path*",
+			"permanent": true
+		},
+		{
+			"source": "/szakmaihet/:path*",
+			"destination": "https://old.simonyi.bme.hu/szakmaihet/:path*",
+			"permanent": true
+		},
+		{
+			"source": "/szakmaihet2020/:path*",
+			"destination": "https://old.simonyi.bme.hu/szakmaihet2020/:path*",
+			"permanent": true
+		},
+		{
+			"source": "/tankor/:path*",
+			"destination": "https://old.simonyi.bme.hu/tankor/:path*",
+			"permanent": true
+		},
+		{
+			"source": "/tippelj/:path*",
+			"destination": "https://old.simonyi.bme.hu/tippelj/:path*",
+			"permanent": true
+		},
+		{
+			"source": "/wiki/:path*",
+			"destination": "https://old.simonyi.bme.hu/wiki/:path*",
+			"permanent": true
+		},
+		{
+			"source": "/tanfolyam/:path*",
+			"destination": "https://old.simonyi.bme.hu/tanfolyam/:path*",
 			"permanent": true
 		}
 	]
