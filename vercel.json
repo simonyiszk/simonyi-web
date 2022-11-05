@@ -1,0 +1,23 @@
+{
+	"github": {
+		"silent": true
+	},
+
+	"redirects": [
+		{
+			"source": "/ntp2020",
+			"destination": "https://old.simonyi.bme.hu/ntp2020",
+			"permanent": true
+		},
+		{
+			"source": "/ntp2020/:path*",
+			"destination": "https://old.simonyi.bme.hu/ntp2020/:path*",
+			"permanent": true
+		},
+		{
+			"source": "/docs/:path*",
+			"destination": "https://old.simonyi.bme.hu/docs/:path*",
+			"permanent": true
+		}
+	]
+}
