@@ -43,18 +43,9 @@ export default function Hero() {
 					textAlign="center"
 					color="white"
 					textDecor="none"
-					fontSize={["1rem", "1.5rem", "3rem"]}
+					fontSize={["1rem", "1.25rem", "2.5rem"]}
 				>
-					<Link href="/tanfolyam">
-						Tanfolyamok
-						<ExternalLinkIcon
-							w={["1.25rem", "1.5rem", "2.25rem"]}
-							h={["1.25rem", "1.5rem", "2.25rem"]}
-							color="white"
-							mb=".5rem"
-							ml="1rem"
-						/>
-					</Link>
+					Weboldalunk 2023 telének végére megújul! Több tartalom, jobb eligazodás, új funkciók, és még sok más várható.
 				</Box>
 				<Box>
 					<Image
