@@ -90,6 +90,15 @@
 		]
 	},
 	{
+		"name": "Menedzsment Kör",
+		"leader": "Sinkó Kinga",
+		"description": "A MGMT a szakkolis rendezvények megszervezésével, a szakkoli társadalmi felelősségvállalásával foglalkozik. A tagok marketing-, PR-, HR és gazdaságis tapasztalatokra is szert tehetnek nálunk. Főbb rendezvényeink a Félévnyitó & Felvételi Vacsorák, a Szakmai Hét, a Simonyi Nyári Tábor, illetve a Simonyi Szülinap, ahová az ország szakkollégiumaiból érkeznek vendégek. A körben kapott menedzsment készségekkel és tapasztalatokkal felruházott szakkollégista az itt megszerzett tudást nemcsak az egyetemi pályafutása során, hanem annak befejezése után is számos területen tudja kamatoztatni.",
+		"logoname": "mgmt",
+		"socialmedia": [
+			{ "type": "email", "link": "mgmt@simonyi.bme.hu" }
+		]
+	},
+	{
 		"name": "schdesign",
 		"leader": "Arbel Dániel",
 		"description": "A Simonyi Károly Szakkollégium kreatív alkotóműhelyeként a kör feladata a különböző digitális műfajok ápolása, mint például az arculattervezés, a logótervezés, a webdesign, a UX design, a 3D modellezés vagy a nyomtatott grafikák készítése. Mindezt valós projekteken teszik – egyik legnagyobb munkájuk az évről évre megrendezésre kerülő Simonyi Konferencia és a Schönherz QPA arculatának megtervezése.",
