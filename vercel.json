@@ -10,6 +10,11 @@
 			"permanent": true
 		},
 		{
+			"source": "/ntp2021/:path*",
+			"destination": "https://old.simonyi.bme.hu/ntp2021/:path*",
+			"permanent": true
+		},
+		{
 			"source": "/docs/:path*",
 			"destination": "https://old.simonyi.bme.hu/docs/:path*",
 			"permanent": true
