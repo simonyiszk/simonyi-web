@@ -58,6 +58,46 @@
 			"source": "/tanfolyam/:path*",
 			"destination": "https://old.simonyi.bme.hu/tanfolyam/:path*",
 			"permanent": true
+		},
+    		{
+			"source": "/bss/:path*",
+			"destination": "https://bsstudio.hu/:path*",
+			"permanent": true
+		},
+    		{
+			"source": "/ac/:path*",
+			"destination": "https://acstudio.sch.bme.hu/:path*",
+			"permanent": true
+		},
+    		{
+			"source": "/ha5kfu/:path*",
+			"destination": "https://ha5kfu.hu/:path*",
+			"permanent": true
+		},
+    		{
+			"source": "/kir-dev/:path*",
+			"destination": "https://kir-dev.hu/:path*",
+			"permanent": true
+		},
+    		{
+			"source": "/lego/:path*",
+			"destination": "https://legokor.hu/:path*",
+			"permanent": true
+		},
+    		{
+			"source": "/schdesign/:path*",
+			"destination": "https://schdesign.hu/:path*",
+			"permanent": true
+		},
+    		{
+			"source": "/sem/:path*",
+			"destination": "https://sem.sch.bme.hu/:path*",
+			"permanent": true
+		},
+    		{
+			"source": "/spot/:path*",
+			"destination": "https://spot.sch.bme.hu/:path*",
+			"permanent": true
 		}
 	]
 }
